@@ -276,18 +276,32 @@ darkerLabels on
                 f.write(stanza)
                 f.write('\n')
 
-    def bigBed(self, f):
+    def bigBedWeng(self, f):
         name = "Weng rDHS Score"
         stanza = """
 	track WengrDHS
-	bigDataUrl http://users.wenglab.org/purcarom/Weng-rDHS-Score.bigBed
+	bigDataUrl http://users.wenglab.org/purcarom/dnase/Weng-rDHS-Score.bigBed
 	visibility dense
 	type bigBed
-	color 227,184,136
 	shortLabel {shortL}
 	longLabel {longL}
 	itemRgb On
-        useScore=1
+	darkerLabels on
+""".format(shortL=makeShortLabel(name),
+           longL=makeLongLabel(name))
+        f.write(stanza)
+        f.write('\n')        
+
+    def bigBedStam(self, f):
+        name = "Stam Master List No Overlap"
+        stanza = """
+	track StamMasterList
+	bigDataUrl http://users.wenglab.org/purcarom/dnase/Stam-Master-List-WM20180313-NoOverlap.bigBed
+	visibility dense
+	type bigBed
+	shortLabel {shortL}
+	longLabel {longL}
+	itemRgb On
 	darkerLabels on
 """.format(shortL=makeShortLabel(name),
            longL=makeLongLabel(name))
@@ -317,7 +331,8 @@ longLabel {longL}
                 f.write(superTrack)
                 f.write('\n')
             self._doByTissue(f)
-            self.bigBed(f)
+            self.bigBedWeng(f)
+            self.bigBedStam(f)
         printWroteNumLines(fnp)
 
 ds = DNaseStam()
