@@ -284,12 +284,13 @@ darkerLabels on
         stanza = """
 	track WengrDHS
 	bigDataUrl http://users.wenglab.org/purcarom/dnase/Weng-rDHS-Score.bigBed
-	visibility dense
-	type bigBed
-	shortLabel {shortL}
+	visibility pack
+	type bigBed 5
+	spectrum on
+        shortLabel {shortL}
 	longLabel {longL}
-	itemRgb On
 	darkerLabels on
+        priority 1
 """.format(shortL=makeShortLabel(name),
            longL=makeLongLabel(name))
         f.write(stanza)
@@ -300,12 +301,13 @@ darkerLabels on
         stanza = """
 	track StamMasterList
 	bigDataUrl http://users.wenglab.org/purcarom/dnase/Stam-Master-List-WM20180313-NoOverlap.bigBed
-	visibility dense
-	type bigBed
+	visibility pack
+	type bigBed 5
+        spectrum on
 	shortLabel {shortL}
 	longLabel {longL}
-	itemRgb On
 	darkerLabels on
+        priority 2
 """.format(shortL=makeShortLabel(name),
            longL=makeLongLabel(name))
         f.write(stanza)
