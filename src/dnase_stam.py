@@ -9,7 +9,7 @@ import json
 import random
 from collections import OrderedDict, defaultdict
 
-sys.path.append('/home/mjp/metadata/utils')
+sys.path.append(os.path.join(os.path.dirname(__file__), '../../metadata/utils/'))
 from utils import Utils, eprint, AddPath, printt, printWroteNumLines
 from exp import Exp
 
@@ -148,7 +148,7 @@ def outputLines(d, indentLevel, extras = {}):
 class DNaseStam(object):
     def loadExps(self):
         printt("loading exps...")
-        with open("hg38-Hotspot-List.txt") as f:
+        with open(os.path.join(os.path.dirname(__file__), "hg38-Hotspot-List.txt")) as f:
             lines = [line.rstrip().split() for line in f]
         
         self.exps = []
@@ -198,7 +198,7 @@ class DNaseStam(object):
 
         tissueColors = {}
         byTissue = defaultdict(list)
-        for idx, tup in enumerate(self.exps):
+        for idx, tup in enumerate(sorted(self.exps, key = lambda x: x[0])):
             expID, exp, t, fileID = tup
             if t not in tissueColors:
                 tissueColors[t] = COLORS.pop()
@@ -208,7 +208,8 @@ class DNaseStam(object):
             byTissue[t].append(out(t, exp, fileID, tissueColor))
 
         tissueTracks = []
-        for t, stanzas in byTissue.items():
+        for t in sorted(byTissue.keys()):
+            stanzas = byTissue[t]
             tissueTracks.append("""
 track {tn}
 parent super_byTissue
@@ -310,7 +311,7 @@ longLabel {longL}
            shortL=makeShortLabel(name),
            longL=makeLongLabel(name)))
         
-        fnp = '/home/mjp/dnase/hg38/trackDb.txt'
+        fnp = os.path.join(os.path.dirname(__file__), '../www/hg38/trackDb.txt')
         with open(fnp, 'w') as f:
             for superTrack in superTracks:
                 f.write(superTrack)
