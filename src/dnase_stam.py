@@ -291,7 +291,7 @@ darkerLabels on
 	longLabel {longL}
 	darkerLabels on
         priority 1
-""".format(shortL=makeShortLabel(name),
+""".format(shortL=makeShortLabel("Weng"),
            longL=makeLongLabel(name))
         f.write(stanza)
         f.write('\n')        
@@ -299,7 +299,7 @@ darkerLabels on
     def bigBedStam(self, f):
         name = "Stam Master List No Overlap"
         stanza = """
-	track StamMasterList
+	track StamDHS
 	bigDataUrl http://users.wenglab.org/purcarom/dnase/Stam-Master-List-WM20180313-NoOverlap.bigBed
 	visibility dense
 	type bigBed 5
@@ -308,7 +308,7 @@ darkerLabels on
 	longLabel {longL}
 	darkerLabels on
         priority 2
-""".format(shortL=makeShortLabel(name),
+""".format(shortL=makeShortLabel("Stam"),
            longL=makeLongLabel(name))
         f.write(stanza)
         f.write('\n')        
