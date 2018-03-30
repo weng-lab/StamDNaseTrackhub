@@ -1,0 +1,6 @@
+hub ENCODE
+shortLabel ENCODE Stam DNase Signal
+longLabel ENCODE Stam DNase Signal
+genomesFile genomes.txt
+email zhiping.weng@umassmed.edu
+descriptionUrl http://encodeproject.org/
