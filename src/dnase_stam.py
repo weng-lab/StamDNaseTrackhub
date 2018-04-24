@@ -190,7 +190,7 @@ class DNaseStam(object):
         p = OrderedDict()
         p["exclusionlabel"] = self.labels[fileID] if fileID in self.labels else ExclusionLabels[0]
         p["track"] = fileID + tfsx
-        p["parent"] = parent
+        p["parent"] = parent + (tfsx if "compos" in parent else "")
         p["bigDataUrl"] = f.url + "?proxy=true"
         p["visibility"] = viz("full", True)
         p["type"] = "bigWig"
