@@ -273,7 +273,7 @@ darkerLabels on
         for l in sorted(byELabel.keys()):
             stanzas = byELabel[l]
             labelTracks.append("""
-track {tn}
+track {tn}_el
 parent super_byELabel
 compositeTrack on
 shortLabel {shortL}

@@ -11351,7 +11351,7 @@ darkerLabels on
 
 
 
-track compos_SPOT_and_Zhiping
+track compos_SPOT_and_Zhiping_el
 parent super_byELabel
 compositeTrack on
 shortLabel SPOT and Zhiping
@@ -11365,7 +11365,7 @@ hoverMetadata on
 darkerLabels on
 
 
-track compos_SPOT_tSNE_and_Zhiping
+track compos_SPOT_tSNE_and_Zhiping_el
 parent super_byELabel
 compositeTrack on
 shortLabel SPOT, tSNE, and Z
@@ -11379,7 +11379,7 @@ hoverMetadata on
 darkerLabels on
 
 
-track compos_Zhiping_and_tSNE
+track compos_Zhiping_and_tSNE_el
 parent super_byELabel
 compositeTrack on
 shortLabel Zhiping and tSNE
@@ -11393,7 +11393,7 @@ hoverMetadata on
 darkerLabels on
 
 
-track compos_Zhiping_only
+track compos_Zhiping_only_el
 parent super_byELabel
 compositeTrack on
 shortLabel Zhiping only
@@ -11407,7 +11407,7 @@ hoverMetadata on
 darkerLabels on
 
 
-track compos_all_good
+track compos_all_good_el
 parent super_byELabel
 compositeTrack on
 shortLabel all good
