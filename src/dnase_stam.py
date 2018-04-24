@@ -28,7 +28,7 @@ AssayColors = {"DNase": ["6,218,147", "#06DA93"],
                "TF ChIP-seq": ["18,98,235", "#1262EB"],
                "CTCF": ["0,176,240", "#00B0F0"]}
 
-ExclusionLabels = [ "all good", "tSNE only", "Zhiping only", "Zhiping and tSNE", "SPOT only", "SPOT and tSNE", "SPOT and Zhiping", "SPOT, tSNE, and Zhiping" ]
+ExclusionLabels = [ "all good", "SPOT only", "Zhiping only", "Zhiping and SPOT", "tSNE only", "SPOT and tSNE", "tSNE and Zhiping", "SPOT, tSNE, and Zhiping" ]
 
 SubGroupKeys = ["age", "donor", "label", "assay", "view"]
 
@@ -157,6 +157,7 @@ class DNaseStam(object):
         with open("exclusion_labels.tsv", 'r') as f:
             for line in f:
                 line = line.strip().split('\t')
+                if len(line) < 2: continue
                 self.labels[line[0]] = ExclusionLabels[int(line[1])]
                 
     def loadExps(self):

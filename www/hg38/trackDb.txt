@@ -710,34 +710,6 @@ darkerLabels on
 	darkerLabels on
 
 
-	exclusionlabel Zhiping and tSNE
-	track ENCFF300WUQ
-	parent compos_lung
-	bigDataUrl https://www.encodeproject.org/files/ENCFF300WUQ/@@download/ENCFF300WUQ.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 204,204,51
-	height maxHeightPixels 32:12:8
-	shortLabel upper lobe of lef
-	longLabel ENCFF300WUQ upper lobe of left lung female adult (51 year)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel Zhiping and tSNE
-	track ENCFF414NAA
-	parent compos_lung
-	bigDataUrl https://www.encodeproject.org/files/ENCFF414NAA/@@download/ENCFF414NAA.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 204,204,51
-	height maxHeightPixels 32:12:8
-	shortLabel upper lobe of lef
-	longLabel ENCFF414NAA upper lobe of left lung male adult (37 years)
-	itemRgb On
-	darkerLabels on
-
-
 	exclusionlabel all good
 	track ENCFF010TXA
 	parent compos_lung
@@ -1508,16 +1480,44 @@ darkerLabels on
 	darkerLabels on
 
 
-	exclusionlabel Zhiping and tSNE
-	track ENCFF561DJM
+	exclusionlabel tSNE and Zhiping
+	track ENCFF300WUQ
+	parent compos_lung
+	bigDataUrl https://www.encodeproject.org/files/ENCFF300WUQ/@@download/ENCFF300WUQ.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 204,204,51
+	height maxHeightPixels 32:12:8
+	shortLabel upper lobe of lef
+	longLabel ENCFF300WUQ upper lobe of left lung female adult (51 year)
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel tSNE and Zhiping
+	track ENCFF414NAA
+	parent compos_lung
+	bigDataUrl https://www.encodeproject.org/files/ENCFF414NAA/@@download/ENCFF414NAA.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 204,204,51
+	height maxHeightPixels 32:12:8
+	shortLabel upper lobe of lef
+	longLabel ENCFF414NAA upper lobe of left lung male adult (37 years)
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel SPOT only
+	track ENCFF792NVL
 	parent compos_skin
-	bigDataUrl https://www.encodeproject.org/files/ENCFF561DJM/@@download/ENCFF561DJM.bigWig?proxy=true
+	bigDataUrl https://www.encodeproject.org/files/ENCFF792NVL/@@download/ENCFF792NVL.bigWig?proxy=true
 	visibility full
 	type bigWig
 	color 255,204,255
 	height maxHeightPixels 32:12:8
-	shortLabel lower leg skin
-	longLabel ENCFF561DJM lower leg skin female adult (53 years)
+	shortLabel skin of body
+	longLabel ENCFF792NVL skin of body female embryo (82 days)
 	itemRgb On
 	darkerLabels on
 
@@ -1789,20 +1789,6 @@ darkerLabels on
 
 
 	exclusionlabel all good
-	track ENCFF792NVL
-	parent compos_skin
-	bigDataUrl https://www.encodeproject.org/files/ENCFF792NVL/@@download/ENCFF792NVL.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 255,204,255
-	height maxHeightPixels 32:12:8
-	shortLabel skin of body
-	longLabel ENCFF792NVL skin of body female embryo (82 days)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
 	track ENCFF802ZBQ
 	parent compos_skin
 	bigDataUrl https://www.encodeproject.org/files/ENCFF802ZBQ/@@download/ENCFF802ZBQ.bigWig?proxy=true
@@ -1868,6 +1854,20 @@ darkerLabels on
 	height maxHeightPixels 32:12:8
 	shortLabel EH
 	longLabel ENCFF998XZO EH
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel tSNE and Zhiping
+	track ENCFF561DJM
+	parent compos_skin
+	bigDataUrl https://www.encodeproject.org/files/ENCFF561DJM/@@download/ENCFF561DJM.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 255,204,255
+	height maxHeightPixels 32:12:8
+	shortLabel lower leg skin
+	longLabel ENCFF561DJM lower leg skin female adult (53 years)
 	itemRgb On
 	darkerLabels on
 
@@ -2404,6 +2404,62 @@ darkerLabels on
 	darkerLabels on
 
 
+	exclusionlabel SPOT and tSNE
+	track ENCFF225GCE
+	parent compos_brain
+	bigDataUrl https://www.encodeproject.org/files/ENCFF225GCE/@@download/ENCFF225GCE.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 153,153,0
+	height maxHeightPixels 32:12:8
+	shortLabel midbrain
+	longLabel ENCFF225GCE midbrain male adult (78 years) and male adult (84 years)
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel SPOT and tSNE
+	track ENCFF498QFP
+	parent compos_brain
+	bigDataUrl https://www.encodeproject.org/files/ENCFF498QFP/@@download/ENCFF498QFP.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 153,153,0
+	height maxHeightPixels 32:12:8
+	shortLabel caudate nucleus
+	longLabel ENCFF498QFP caudate nucleus male adult (78 years)
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel SPOT and tSNE
+	track ENCFF751LHL
+	parent compos_brain
+	bigDataUrl https://www.encodeproject.org/files/ENCFF751LHL/@@download/ENCFF751LHL.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 153,153,0
+	height maxHeightPixels 32:12:8
+	shortLabel middle frontal gy
+	longLabel ENCFF751LHL middle frontal gyrus male adult (78 years)
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel SPOT and tSNE
+	track ENCFF848BGL
+	parent compos_brain
+	bigDataUrl https://www.encodeproject.org/files/ENCFF848BGL/@@download/ENCFF848BGL.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 153,153,0
+	height maxHeightPixels 32:12:8
+	shortLabel inferior parietal
+	longLabel ENCFF848BGL inferior parietal cortex male adult (84 years)
+	itemRgb On
+	darkerLabels on
+
+
 	exclusionlabel all good
 	track ENCFF003FBE
 	parent compos_brain
@@ -2442,20 +2498,6 @@ darkerLabels on
 	height maxHeightPixels 32:12:8
 	shortLabel brain
 	longLabel ENCFF064KBT brain female embryo (96 days)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
-	track ENCFF095HIQ
-	parent compos_brain
-	bigDataUrl https://www.encodeproject.org/files/ENCFF095HIQ/@@download/ENCFF095HIQ.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 153,153,0
-	height maxHeightPixels 32:12:8
-	shortLabel ecto neural proge
-	longLabel ENCFF095HIQ ecto neural progenitor cell originated from H9
 	itemRgb On
 	darkerLabels on
 
@@ -2512,20 +2554,6 @@ darkerLabels on
 	height maxHeightPixels 32:12:8
 	shortLabel globus pallidus
 	longLabel ENCFF225FYX globus pallidus male adult (78 years) and male adult (84 years)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
-	track ENCFF225GCE
-	parent compos_brain
-	bigDataUrl https://www.encodeproject.org/files/ENCFF225GCE/@@download/ENCFF225GCE.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 153,153,0
-	height maxHeightPixels 32:12:8
-	shortLabel midbrain
-	longLabel ENCFF225GCE midbrain male adult (78 years) and male adult (84 years)
 	itemRgb On
 	darkerLabels on
 
@@ -2797,20 +2825,6 @@ darkerLabels on
 
 
 	exclusionlabel all good
-	track ENCFF498QFP
-	parent compos_brain
-	bigDataUrl https://www.encodeproject.org/files/ENCFF498QFP/@@download/ENCFF498QFP.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 153,153,0
-	height maxHeightPixels 32:12:8
-	shortLabel caudate nucleus
-	longLabel ENCFF498QFP caudate nucleus male adult (78 years)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
 	track ENCFF503ZTL
 	parent compos_brain
 	bigDataUrl https://www.encodeproject.org/files/ENCFF503ZTL/@@download/ENCFF503ZTL.bigWig?proxy=true
@@ -2848,34 +2862,6 @@ darkerLabels on
 	height maxHeightPixels 32:12:8
 	shortLabel brain
 	longLabel ENCFF536FNG brain female embryo (117 days)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
-	track ENCFF547ZQF
-	parent compos_brain
-	bigDataUrl https://www.encodeproject.org/files/ENCFF547ZQF/@@download/ENCFF547ZQF.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 153,153,0
-	height maxHeightPixels 32:12:8
-	shortLabel midbrain
-	longLabel ENCFF547ZQF midbrain male adult (78 years) and male adult (84 years)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
-	track ENCFF568EAH
-	parent compos_brain
-	bigDataUrl https://www.encodeproject.org/files/ENCFF568EAH/@@download/ENCFF568EAH.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 153,153,0
-	height maxHeightPixels 32:12:8
-	shortLabel occipital lobe
-	longLabel ENCFF568EAH occipital lobe male adult (84 years)
 	itemRgb On
 	darkerLabels on
 
@@ -3049,20 +3035,6 @@ darkerLabels on
 
 
 	exclusionlabel all good
-	track ENCFF751LHL
-	parent compos_brain
-	bigDataUrl https://www.encodeproject.org/files/ENCFF751LHL/@@download/ENCFF751LHL.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 153,153,0
-	height maxHeightPixels 32:12:8
-	shortLabel middle frontal gy
-	longLabel ENCFF751LHL middle frontal gyrus male adult (78 years)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
 	track ENCFF799EBA
 	parent compos_brain
 	bigDataUrl https://www.encodeproject.org/files/ENCFF799EBA/@@download/ENCFF799EBA.bigWig?proxy=true
@@ -3100,20 +3072,6 @@ darkerLabels on
 	height maxHeightPixels 32:12:8
 	shortLabel M059J
 	longLabel ENCFF811BRR M059J
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
-	track ENCFF848BGL
-	parent compos_brain
-	bigDataUrl https://www.encodeproject.org/files/ENCFF848BGL/@@download/ENCFF848BGL.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 153,153,0
-	height maxHeightPixels 32:12:8
-	shortLabel inferior parietal
-	longLabel ENCFF848BGL inferior parietal cortex male adult (84 years)
 	itemRgb On
 	darkerLabels on
 
@@ -3170,6 +3128,48 @@ darkerLabels on
 	height maxHeightPixels 32:12:8
 	shortLabel SK-N-DZ
 	longLabel ENCFF989ALW SK-N-DZ treated with dimethyl sulfoxide for 72 hours
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel tSNE only
+	track ENCFF095HIQ
+	parent compos_brain
+	bigDataUrl https://www.encodeproject.org/files/ENCFF095HIQ/@@download/ENCFF095HIQ.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 153,153,0
+	height maxHeightPixels 32:12:8
+	shortLabel ecto neural proge
+	longLabel ENCFF095HIQ ecto neural progenitor cell originated from H9
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel tSNE only
+	track ENCFF547ZQF
+	parent compos_brain
+	bigDataUrl https://www.encodeproject.org/files/ENCFF547ZQF/@@download/ENCFF547ZQF.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 153,153,0
+	height maxHeightPixels 32:12:8
+	shortLabel midbrain
+	longLabel ENCFF547ZQF midbrain male adult (78 years) and male adult (84 years)
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel tSNE only
+	track ENCFF568EAH
+	parent compos_brain
+	bigDataUrl https://www.encodeproject.org/files/ENCFF568EAH/@@download/ENCFF568EAH.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 153,153,0
+	height maxHeightPixels 32:12:8
+	shortLabel occipital lobe
+	longLabel ENCFF568EAH occipital lobe male adult (84 years)
 	itemRgb On
 	darkerLabels on
 
@@ -3310,20 +3310,6 @@ darkerLabels on
 	height maxHeightPixels 32:12:8
 	shortLabel sigmoid colon
 	longLabel ENCFF410TTD sigmoid colon female adult (51 year)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel Zhiping and tSNE
-	track ENCFF950KRY
-	parent compos_intestine
-	bigDataUrl https://www.encodeproject.org/files/ENCFF950KRY/@@download/ENCFF950KRY.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 255,204,204
-	height maxHeightPixels 32:12:8
-	shortLabel transverse colon
-	longLabel ENCFF950KRY transverse colon female adult (51 year)
 	itemRgb On
 	darkerLabels on
 
@@ -3916,16 +3902,100 @@ darkerLabels on
 	darkerLabels on
 
 
-	exclusionlabel Zhiping and tSNE
-	track ENCFF475NUL
+	exclusionlabel tSNE and Zhiping
+	track ENCFF950KRY
+	parent compos_intestine
+	bigDataUrl https://www.encodeproject.org/files/ENCFF950KRY/@@download/ENCFF950KRY.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 255,204,204
+	height maxHeightPixels 32:12:8
+	shortLabel transverse colon
+	longLabel ENCFF950KRY transverse colon female adult (51 year)
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel SPOT and tSNE
+	track ENCFF121CVF
 	parent compos_blood
-	bigDataUrl https://www.encodeproject.org/files/ENCFF475NUL/@@download/ENCFF475NUL.bigWig?proxy=true
+	bigDataUrl https://www.encodeproject.org/files/ENCFF121CVF/@@download/ENCFF121CVF.bigWig?proxy=true
 	visibility full
 	type bigWig
 	color 51,153,153
 	height maxHeightPixels 32:12:8
-	shortLabel CD1c-positive mye
-	longLabel ENCFF475NUL CD1c-positive myeloid dendritic cell
+	shortLabel hematopoietic mul
+	longLabel ENCFF121CVF hematopoietic multipotent progenitor cell treated with interleukin-3
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel SPOT and tSNE
+	track ENCFF622JVD
+	parent compos_blood
+	bigDataUrl https://www.encodeproject.org/files/ENCFF622JVD/@@download/ENCFF622JVD.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 51,153,153
+	height maxHeightPixels 32:12:8
+	shortLabel regulatory T cell
+	longLabel ENCFF622JVD regulatory T cell male adult (28 years)
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel SPOT only
+	track ENCFF104JJN
+	parent compos_blood
+	bigDataUrl https://www.encodeproject.org/files/ENCFF104JJN/@@download/ENCFF104JJN.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 51,153,153
+	height maxHeightPixels 32:12:8
+	shortLabel natural killer ce
+	longLabel ENCFF104JJN natural killer cell male adult (37 years)
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel SPOT only
+	track ENCFF162XBG
+	parent compos_blood
+	bigDataUrl https://www.encodeproject.org/files/ENCFF162XBG/@@download/ENCFF162XBG.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 51,153,153
+	height maxHeightPixels 32:12:8
+	shortLabel hematopoietic mul
+	longLabel ENCFF162XBG hematopoietic multipotent progenitor cell treated with interleukin-3
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel SPOT only
+	track ENCFF508ADO
+	parent compos_blood
+	bigDataUrl https://www.encodeproject.org/files/ENCFF508ADO/@@download/ENCFF508ADO.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 51,153,153
+	height maxHeightPixels 32:12:8
+	shortLabel T-cell
+	longLabel ENCFF508ADO T-cell male adult (36 years)
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel SPOT only
+	track ENCFF667COT
+	parent compos_blood
+	bigDataUrl https://www.encodeproject.org/files/ENCFF667COT/@@download/ENCFF667COT.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 51,153,153
+	height maxHeightPixels 32:12:8
+	shortLabel hematopoietic mul
+	longLabel ENCFF667COT hematopoietic multipotent progenitor cell treated with interleukin-3
 	itemRgb On
 	darkerLabels on
 
@@ -4029,20 +4099,6 @@ darkerLabels on
 
 
 	exclusionlabel all good
-	track ENCFF104JJN
-	parent compos_blood
-	bigDataUrl https://www.encodeproject.org/files/ENCFF104JJN/@@download/ENCFF104JJN.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 51,153,153
-	height maxHeightPixels 32:12:8
-	shortLabel natural killer ce
-	longLabel ENCFF104JJN natural killer cell male adult (37 years)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
 	track ENCFF117DAB
 	parent compos_blood
 	bigDataUrl https://www.encodeproject.org/files/ENCFF117DAB/@@download/ENCFF117DAB.bigWig?proxy=true
@@ -4052,20 +4108,6 @@ darkerLabels on
 	height maxHeightPixels 32:12:8
 	shortLabel hematopoietic mul
 	longLabel ENCFF117DAB hematopoietic multipotent progenitor cell treated with interleukin-3
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
-	track ENCFF121CVF
-	parent compos_blood
-	bigDataUrl https://www.encodeproject.org/files/ENCFF121CVF/@@download/ENCFF121CVF.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 51,153,153
-	height maxHeightPixels 32:12:8
-	shortLabel hematopoietic mul
-	longLabel ENCFF121CVF hematopoietic multipotent progenitor cell treated with interleukin-3
 	itemRgb On
 	darkerLabels on
 
@@ -4192,20 +4234,6 @@ darkerLabels on
 	height maxHeightPixels 32:12:8
 	shortLabel RPMI8226
 	longLabel ENCFF158OZL RPMI8226
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
-	track ENCFF162XBG
-	parent compos_blood
-	bigDataUrl https://www.encodeproject.org/files/ENCFF162XBG/@@download/ENCFF162XBG.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 51,153,153
-	height maxHeightPixels 32:12:8
-	shortLabel hematopoietic mul
-	longLabel ENCFF162XBG hematopoietic multipotent progenitor cell treated with interleukin-3
 	itemRgb On
 	darkerLabels on
 
@@ -4547,20 +4575,6 @@ darkerLabels on
 
 
 	exclusionlabel all good
-	track ENCFF508ADO
-	parent compos_blood
-	bigDataUrl https://www.encodeproject.org/files/ENCFF508ADO/@@download/ENCFF508ADO.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 51,153,153
-	height maxHeightPixels 32:12:8
-	shortLabel T-cell
-	longLabel ENCFF508ADO T-cell male adult (36 years)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
 	track ENCFF522NPH
 	parent compos_blood
 	bigDataUrl https://www.encodeproject.org/files/ENCFF522NPH/@@download/ENCFF522NPH.bigWig?proxy=true
@@ -4659,20 +4673,6 @@ darkerLabels on
 
 
 	exclusionlabel all good
-	track ENCFF622JVD
-	parent compos_blood
-	bigDataUrl https://www.encodeproject.org/files/ENCFF622JVD/@@download/ENCFF622JVD.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 51,153,153
-	height maxHeightPixels 32:12:8
-	shortLabel regulatory T cell
-	longLabel ENCFF622JVD regulatory T cell male adult (28 years)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
 	track ENCFF627XCI
 	parent compos_blood
 	bigDataUrl https://www.encodeproject.org/files/ENCFF627XCI/@@download/ENCFF627XCI.bigWig?proxy=true
@@ -4724,20 +4724,6 @@ darkerLabels on
 	height maxHeightPixels 32:12:8
 	shortLabel CD4-positive, alp
 	longLabel ENCFF658FXQ CD4-positive, alpha-beta T cell male adult (21 year)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
-	track ENCFF667COT
-	parent compos_blood
-	bigDataUrl https://www.encodeproject.org/files/ENCFF667COT/@@download/ENCFF667COT.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 51,153,153
-	height maxHeightPixels 32:12:8
-	shortLabel hematopoietic mul
-	longLabel ENCFF667COT hematopoietic multipotent progenitor cell treated with interleukin-3
 	itemRgb On
 	darkerLabels on
 
@@ -5204,16 +5190,30 @@ darkerLabels on
 	darkerLabels on
 
 
-	exclusionlabel all good
-	track ENCFF049FUZ
+	exclusionlabel tSNE and Zhiping
+	track ENCFF475NUL
+	parent compos_blood
+	bigDataUrl https://www.encodeproject.org/files/ENCFF475NUL/@@download/ENCFF475NUL.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 51,153,153
+	height maxHeightPixels 32:12:8
+	shortLabel CD1c-positive mye
+	longLabel ENCFF475NUL CD1c-positive myeloid dendritic cell
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel SPOT and tSNE
+	track ENCFF630MXI
 	parent compos_ESC
-	bigDataUrl https://www.encodeproject.org/files/ENCFF049FUZ/@@download/ENCFF049FUZ.bigWig?proxy=true
+	bigDataUrl https://www.encodeproject.org/files/ENCFF630MXI/@@download/ENCFF630MXI.bigWig?proxy=true
 	visibility full
 	type bigWig
 	color 204,153,204
 	height maxHeightPixels 32:12:8
 	shortLabel H9
-	longLabel ENCFF049FUZ H9 G1 phase genetically modified using stable transfection
+	longLabel ENCFF630MXI H9 G1 phase genetically modified using stable transfection
 	itemRgb On
 	darkerLabels on
 
@@ -5331,20 +5331,6 @@ darkerLabels on
 
 
 	exclusionlabel all good
-	track ENCFF630MXI
-	parent compos_ESC
-	bigDataUrl https://www.encodeproject.org/files/ENCFF630MXI/@@download/ENCFF630MXI.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 204,153,204
-	height maxHeightPixels 32:12:8
-	shortLabel H9
-	longLabel ENCFF630MXI H9 G1 phase genetically modified using stable transfection
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
 	track ENCFF685WFL
 	parent compos_ESC
 	bigDataUrl https://www.encodeproject.org/files/ENCFF685WFL/@@download/ENCFF685WFL.bigWig?proxy=true
@@ -5387,20 +5373,6 @@ darkerLabels on
 
 
 	exclusionlabel all good
-	track ENCFF745RLH
-	parent compos_ESC
-	bigDataUrl https://www.encodeproject.org/files/ENCFF745RLH/@@download/ENCFF745RLH.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 204,153,204
-	height maxHeightPixels 32:12:8
-	shortLabel H9
-	longLabel ENCFF745RLH H9
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
 	track ENCFF855CJL
 	parent compos_ESC
 	bigDataUrl https://www.encodeproject.org/files/ENCFF855CJL/@@download/ENCFF855CJL.bigWig?proxy=true
@@ -5414,30 +5386,58 @@ darkerLabels on
 	darkerLabels on
 
 
-	exclusionlabel Zhiping and tSNE
-	track ENCFF312ZWZ
-	parent compos_heart
-	bigDataUrl https://www.encodeproject.org/files/ENCFF312ZWZ/@@download/ENCFF312ZWZ.bigWig?proxy=true
+	exclusionlabel tSNE only
+	track ENCFF049FUZ
+	parent compos_ESC
+	bigDataUrl https://www.encodeproject.org/files/ENCFF049FUZ/@@download/ENCFF049FUZ.bigWig?proxy=true
 	visibility full
 	type bigWig
-	color 153,255,51
+	color 204,153,204
 	height maxHeightPixels 32:12:8
-	shortLabel right atrium auri
-	longLabel ENCFF312ZWZ right atrium auricular region female adult (51 year)
+	shortLabel H9
+	longLabel ENCFF049FUZ H9 G1 phase genetically modified using stable transfection
 	itemRgb On
 	darkerLabels on
 
 
-	exclusionlabel Zhiping and tSNE
-	track ENCFF412KRU
+	exclusionlabel tSNE only
+	track ENCFF745RLH
+	parent compos_ESC
+	bigDataUrl https://www.encodeproject.org/files/ENCFF745RLH/@@download/ENCFF745RLH.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 204,153,204
+	height maxHeightPixels 32:12:8
+	shortLabel H9
+	longLabel ENCFF745RLH H9
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel SPOT and tSNE
+	track ENCFF702IWR
 	parent compos_heart
-	bigDataUrl https://www.encodeproject.org/files/ENCFF412KRU/@@download/ENCFF412KRU.bigWig?proxy=true
+	bigDataUrl https://www.encodeproject.org/files/ENCFF702IWR/@@download/ENCFF702IWR.bigWig?proxy=true
 	visibility full
 	type bigWig
 	color 153,255,51
 	height maxHeightPixels 32:12:8
-	shortLabel right atrium auri
-	longLabel ENCFF412KRU right atrium auricular region female adult (53 years)
+	shortLabel heart
+	longLabel ENCFF702IWR heart male embryo (72 days) and male embryo (76 days)
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel SPOT and tSNE
+	track ENCFF882QOT
+	parent compos_heart
+	bigDataUrl https://www.encodeproject.org/files/ENCFF882QOT/@@download/ENCFF882QOT.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 153,255,51
+	height maxHeightPixels 32:12:8
+	shortLabel cardiac fibroblas
+	longLabel ENCFF882QOT cardiac fibroblast female embryo (94 days) and female embryo (98 day
 	itemRgb On
 	darkerLabels on
 
@@ -5452,20 +5452,6 @@ darkerLabels on
 	height maxHeightPixels 32:12:8
 	shortLabel heart
 	longLabel ENCFF008DNO heart female embryo (117 days)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
-	track ENCFF062BSK
-	parent compos_heart
-	bigDataUrl https://www.encodeproject.org/files/ENCFF062BSK/@@download/ENCFF062BSK.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 153,255,51
-	height maxHeightPixels 32:12:8
-	shortLabel heart right ventr
-	longLabel ENCFF062BSK heart right ventricle female embryo (101 day) and female embryo (103
 	itemRgb On
 	darkerLabels on
 
@@ -5793,34 +5779,6 @@ darkerLabels on
 
 
 	exclusionlabel all good
-	track ENCFF678EIG
-	parent compos_heart
-	bigDataUrl https://www.encodeproject.org/files/ENCFF678EIG/@@download/ENCFF678EIG.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 153,255,51
-	height maxHeightPixels 32:12:8
-	shortLabel heart left ventri
-	longLabel ENCFF678EIG heart left ventricle female adult (53 years)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
-	track ENCFF702IWR
-	parent compos_heart
-	bigDataUrl https://www.encodeproject.org/files/ENCFF702IWR/@@download/ENCFF702IWR.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 153,255,51
-	height maxHeightPixels 32:12:8
-	shortLabel heart
-	longLabel ENCFF702IWR heart male embryo (72 days) and male embryo (76 days)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
 	track ENCFF751LRX
 	parent compos_heart
 	bigDataUrl https://www.encodeproject.org/files/ENCFF751LRX/@@download/ENCFF751LRX.bigWig?proxy=true
@@ -5919,20 +5877,6 @@ darkerLabels on
 
 
 	exclusionlabel all good
-	track ENCFF882QOT
-	parent compos_heart
-	bigDataUrl https://www.encodeproject.org/files/ENCFF882QOT/@@download/ENCFF882QOT.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 153,255,51
-	height maxHeightPixels 32:12:8
-	shortLabel cardiac fibroblas
-	longLabel ENCFF882QOT cardiac fibroblast female embryo (94 days) and female embryo (98 day
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
 	track ENCFF894GUX
 	parent compos_heart
 	bigDataUrl https://www.encodeproject.org/files/ENCFF894GUX/@@download/ENCFF894GUX.bigWig?proxy=true
@@ -5970,6 +5914,62 @@ darkerLabels on
 	height maxHeightPixels 32:12:8
 	shortLabel left cardiac atri
 	longLabel ENCFF920CTO left cardiac atrium female embryo (101 day)
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel tSNE and Zhiping
+	track ENCFF312ZWZ
+	parent compos_heart
+	bigDataUrl https://www.encodeproject.org/files/ENCFF312ZWZ/@@download/ENCFF312ZWZ.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 153,255,51
+	height maxHeightPixels 32:12:8
+	shortLabel right atrium auri
+	longLabel ENCFF312ZWZ right atrium auricular region female adult (51 year)
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel tSNE and Zhiping
+	track ENCFF412KRU
+	parent compos_heart
+	bigDataUrl https://www.encodeproject.org/files/ENCFF412KRU/@@download/ENCFF412KRU.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 153,255,51
+	height maxHeightPixels 32:12:8
+	shortLabel right atrium auri
+	longLabel ENCFF412KRU right atrium auricular region female adult (53 years)
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel tSNE only
+	track ENCFF062BSK
+	parent compos_heart
+	bigDataUrl https://www.encodeproject.org/files/ENCFF062BSK/@@download/ENCFF062BSK.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 153,255,51
+	height maxHeightPixels 32:12:8
+	shortLabel heart right ventr
+	longLabel ENCFF062BSK heart right ventricle female embryo (101 day) and female embryo (103
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel tSNE only
+	track ENCFF678EIG
+	parent compos_heart
+	bigDataUrl https://www.encodeproject.org/files/ENCFF678EIG/@@download/ENCFF678EIG.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 153,255,51
+	height maxHeightPixels 32:12:8
+	shortLabel heart left ventri
+	longLabel ENCFF678EIG heart left ventricle female adult (53 years)
 	itemRgb On
 	darkerLabels on
 
@@ -6212,6 +6212,20 @@ darkerLabels on
 	darkerLabels on
 
 
+	exclusionlabel SPOT only
+	track ENCFF859IBW
+	parent compos_blood_vessel
+	bigDataUrl https://www.encodeproject.org/files/ENCFF859IBW/@@download/ENCFF859IBW.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 255,255,51
+	height maxHeightPixels 32:12:8
+	shortLabel dermis blood vess
+	longLabel ENCFF859IBW dermis blood vessel endothelial cell female adult
+	itemRgb On
+	darkerLabels on
+
+
 	exclusionlabel SPOT, tSNE, and Zhiping
 	track ENCFF871GME
 	parent compos_blood_vessel
@@ -6222,48 +6236,6 @@ darkerLabels on
 	height maxHeightPixels 32:12:8
 	shortLabel coronary artery
 	longLabel ENCFF871GME coronary artery female adult (51 year)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel Zhiping and tSNE
-	track ENCFF146VLD
-	parent compos_blood_vessel
-	bigDataUrl https://www.encodeproject.org/files/ENCFF146VLD/@@download/ENCFF146VLD.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 255,255,51
-	height maxHeightPixels 32:12:8
-	shortLabel tibial artery
-	longLabel ENCFF146VLD tibial artery female adult (53 years)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel Zhiping and tSNE
-	track ENCFF367MHB
-	parent compos_blood_vessel
-	bigDataUrl https://www.encodeproject.org/files/ENCFF367MHB/@@download/ENCFF367MHB.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 255,255,51
-	height maxHeightPixels 32:12:8
-	shortLabel tibial artery
-	longLabel ENCFF367MHB tibial artery male adult (37 years)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel Zhiping and tSNE
-	track ENCFF519PNO
-	parent compos_blood_vessel
-	bigDataUrl https://www.encodeproject.org/files/ENCFF519PNO/@@download/ENCFF519PNO.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 255,255,51
-	height maxHeightPixels 32:12:8
-	shortLabel coronary artery
-	longLabel ENCFF519PNO coronary artery female adult (53 years)
 	itemRgb On
 	darkerLabels on
 
@@ -6320,20 +6292,6 @@ darkerLabels on
 	height maxHeightPixels 32:12:8
 	shortLabel dermis blood vess
 	longLabel ENCFF210OAI dermis blood vessel endothelial cell male newborn
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
-	track ENCFF233ORX
-	parent compos_blood_vessel
-	bigDataUrl https://www.encodeproject.org/files/ENCFF233ORX/@@download/ENCFF233ORX.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 255,255,51
-	height maxHeightPixels 32:12:8
-	shortLabel ascending aorta
-	longLabel ENCFF233ORX ascending aorta female adult (51 year)
 	itemRgb On
 	darkerLabels on
 
@@ -6451,20 +6409,6 @@ darkerLabels on
 
 
 	exclusionlabel all good
-	track ENCFF859IBW
-	parent compos_blood_vessel
-	bigDataUrl https://www.encodeproject.org/files/ENCFF859IBW/@@download/ENCFF859IBW.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 255,255,51
-	height maxHeightPixels 32:12:8
-	shortLabel dermis blood vess
-	longLabel ENCFF859IBW dermis blood vessel endothelial cell female adult
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
 	track ENCFF969NNQ
 	parent compos_blood_vessel
 	bigDataUrl https://www.encodeproject.org/files/ENCFF969NNQ/@@download/ENCFF969NNQ.bigWig?proxy=true
@@ -6474,6 +6418,62 @@ darkerLabels on
 	height maxHeightPixels 32:12:8
 	shortLabel dermis blood vess
 	longLabel ENCFF969NNQ dermis blood vessel endothelial cell female adult
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel tSNE and Zhiping
+	track ENCFF146VLD
+	parent compos_blood_vessel
+	bigDataUrl https://www.encodeproject.org/files/ENCFF146VLD/@@download/ENCFF146VLD.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 255,255,51
+	height maxHeightPixels 32:12:8
+	shortLabel tibial artery
+	longLabel ENCFF146VLD tibial artery female adult (53 years)
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel tSNE and Zhiping
+	track ENCFF367MHB
+	parent compos_blood_vessel
+	bigDataUrl https://www.encodeproject.org/files/ENCFF367MHB/@@download/ENCFF367MHB.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 255,255,51
+	height maxHeightPixels 32:12:8
+	shortLabel tibial artery
+	longLabel ENCFF367MHB tibial artery male adult (37 years)
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel tSNE and Zhiping
+	track ENCFF519PNO
+	parent compos_blood_vessel
+	bigDataUrl https://www.encodeproject.org/files/ENCFF519PNO/@@download/ENCFF519PNO.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 255,255,51
+	height maxHeightPixels 32:12:8
+	shortLabel coronary artery
+	longLabel ENCFF519PNO coronary artery female adult (53 years)
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel tSNE only
+	track ENCFF233ORX
+	parent compos_blood_vessel
+	bigDataUrl https://www.encodeproject.org/files/ENCFF233ORX/@@download/ENCFF233ORX.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 255,255,51
+	height maxHeightPixels 32:12:8
+	shortLabel ascending aorta
+	longLabel ENCFF233ORX ascending aorta female adult (51 year)
 	itemRgb On
 	darkerLabels on
 
@@ -6534,30 +6534,16 @@ darkerLabels on
 	darkerLabels on
 
 
-	exclusionlabel Zhiping and tSNE
-	track ENCFF462ZLK
+	exclusionlabel SPOT only
+	track ENCFF967WSX
 	parent compos_liver
-	bigDataUrl https://www.encodeproject.org/files/ENCFF462ZLK/@@download/ENCFF462ZLK.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 153,51,102
-	height maxHeightPixels 32:12:8
-	shortLabel right lobe of liv
-	longLabel ENCFF462ZLK right lobe of liver female adult (53 years)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
-	track ENCFF068ZBX
-	parent compos_liver
-	bigDataUrl https://www.encodeproject.org/files/ENCFF068ZBX/@@download/ENCFF068ZBX.bigWig?proxy=true
+	bigDataUrl https://www.encodeproject.org/files/ENCFF967WSX/@@download/ENCFF967WSX.bigWig?proxy=true
 	visibility full
 	type bigWig
 	color 153,51,102
 	height maxHeightPixels 32:12:8
 	shortLabel liver
-	longLabel ENCFF068ZBX liver embryo (59 days) and embryo (80 days)
+	longLabel ENCFF967WSX liver embryo (59 days) and embryo (80 days)
 	itemRgb On
 	darkerLabels on
 
@@ -6674,16 +6660,30 @@ darkerLabels on
 	darkerLabels on
 
 
-	exclusionlabel all good
-	track ENCFF967WSX
+	exclusionlabel tSNE and Zhiping
+	track ENCFF462ZLK
 	parent compos_liver
-	bigDataUrl https://www.encodeproject.org/files/ENCFF967WSX/@@download/ENCFF967WSX.bigWig?proxy=true
+	bigDataUrl https://www.encodeproject.org/files/ENCFF462ZLK/@@download/ENCFF462ZLK.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 153,51,102
+	height maxHeightPixels 32:12:8
+	shortLabel right lobe of liv
+	longLabel ENCFF462ZLK right lobe of liver female adult (53 years)
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel tSNE only
+	track ENCFF068ZBX
+	parent compos_liver
+	bigDataUrl https://www.encodeproject.org/files/ENCFF068ZBX/@@download/ENCFF068ZBX.bigWig?proxy=true
 	visibility full
 	type bigWig
 	color 153,51,102
 	height maxHeightPixels 32:12:8
 	shortLabel liver
-	longLabel ENCFF967WSX liver embryo (59 days) and embryo (80 days)
+	longLabel ENCFF068ZBX liver embryo (59 days) and embryo (80 days)
 	itemRgb On
 	darkerLabels on
 
@@ -7066,16 +7066,16 @@ darkerLabels on
 	darkerLabels on
 
 
-	exclusionlabel SPOT and Zhiping
-	track ENCFF774SBP
+	exclusionlabel SPOT only
+	track ENCFF479JXO
 	parent compos_kidney
-	bigDataUrl https://www.encodeproject.org/files/ENCFF774SBP/@@download/ENCFF774SBP.bigWig?proxy=true
+	bigDataUrl https://www.encodeproject.org/files/ENCFF479JXO/@@download/ENCFF479JXO.bigWig?proxy=true
 	visibility full
 	type bigWig
 	color 153,204,255
 	height maxHeightPixels 32:12:8
 	shortLabel glomerular viscer
-	longLabel ENCFF774SBP glomerular visceral epithelial cell child (3 years)
+	longLabel ENCFF479JXO glomerular visceral epithelial cell child (3 years)
 	itemRgb On
 	darkerLabels on
 
@@ -7090,6 +7090,20 @@ darkerLabels on
 	height maxHeightPixels 32:12:8
 	shortLabel glomerular viscer
 	longLabel ENCFF769HIL glomerular visceral epithelial cell child (3 years)
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel Zhiping and SPOT
+	track ENCFF774SBP
+	parent compos_kidney
+	bigDataUrl https://www.encodeproject.org/files/ENCFF774SBP/@@download/ENCFF774SBP.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 153,204,255
+	height maxHeightPixels 32:12:8
+	shortLabel glomerular viscer
+	longLabel ENCFF774SBP glomerular visceral epithelial cell child (3 years)
 	itemRgb On
 	darkerLabels on
 
@@ -7678,20 +7692,6 @@ darkerLabels on
 	height maxHeightPixels 32:12:8
 	shortLabel left renal pelvis
 	longLabel ENCFF468WHL left renal pelvis male embryo (105 days)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
-	track ENCFF479JXO
-	parent compos_kidney
-	bigDataUrl https://www.encodeproject.org/files/ENCFF479JXO/@@download/ENCFF479JXO.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 153,204,255
-	height maxHeightPixels 32:12:8
-	shortLabel glomerular viscer
-	longLabel ENCFF479JXO glomerular visceral epithelial cell child (3 years)
 	itemRgb On
 	darkerLabels on
 
@@ -8411,20 +8411,6 @@ darkerLabels on
 
 
 	exclusionlabel all good
-	track ENCFF073UDC
-	parent compos_muscle
-	bigDataUrl https://www.encodeproject.org/files/ENCFF073UDC/@@download/ENCFF073UDC.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 204,153,255
-	height maxHeightPixels 32:12:8
-	shortLabel gastrocnemius med
-	longLabel ENCFF073UDC gastrocnemius medialis male adult (54 years)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
 	track ENCFF082TEM
 	parent compos_muscle
 	bigDataUrl https://www.encodeproject.org/files/ENCFF082TEM/@@download/ENCFF082TEM.bigWig?proxy=true
@@ -8434,20 +8420,6 @@ darkerLabels on
 	height maxHeightPixels 32:12:8
 	shortLabel gastrocnemius med
 	longLabel ENCFF082TEM gastrocnemius medialis female adult (51 year)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
-	track ENCFF123CTY
-	parent compos_muscle
-	bigDataUrl https://www.encodeproject.org/files/ENCFF123CTY/@@download/ENCFF123CTY.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 204,153,255
-	height maxHeightPixels 32:12:8
-	shortLabel smooth muscle cel
-	longLabel ENCFF123CTY smooth muscle cell
 	itemRgb On
 	darkerLabels on
 
@@ -8560,20 +8532,6 @@ darkerLabels on
 	height maxHeightPixels 32:12:8
 	shortLabel muscle of leg
 	longLabel ENCFF198FAC muscle of leg male embryo (115 days)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
-	track ENCFF208JGB
-	parent compos_muscle
-	bigDataUrl https://www.encodeproject.org/files/ENCFF208JGB/@@download/ENCFF208JGB.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 204,153,255
-	height maxHeightPixels 32:12:8
-	shortLabel smooth muscle cel
-	longLabel ENCFF208JGB smooth muscle cell
 	itemRgb On
 	darkerLabels on
 
@@ -9306,16 +9264,44 @@ darkerLabels on
 	darkerLabels on
 
 
-	exclusionlabel Zhiping and tSNE
-	track ENCFF069GRI
-	parent compos_prostate
-	bigDataUrl https://www.encodeproject.org/files/ENCFF069GRI/@@download/ENCFF069GRI.bigWig?proxy=true
+	exclusionlabel tSNE only
+	track ENCFF073UDC
+	parent compos_muscle
+	bigDataUrl https://www.encodeproject.org/files/ENCFF073UDC/@@download/ENCFF073UDC.bigWig?proxy=true
 	visibility full
 	type bigWig
-	color 204,102,51
+	color 204,153,255
 	height maxHeightPixels 32:12:8
-	shortLabel prostate gland
-	longLabel ENCFF069GRI prostate gland male adult (37 years)
+	shortLabel gastrocnemius med
+	longLabel ENCFF073UDC gastrocnemius medialis male adult (54 years)
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel tSNE only
+	track ENCFF123CTY
+	parent compos_muscle
+	bigDataUrl https://www.encodeproject.org/files/ENCFF123CTY/@@download/ENCFF123CTY.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 204,153,255
+	height maxHeightPixels 32:12:8
+	shortLabel smooth muscle cel
+	longLabel ENCFF123CTY smooth muscle cell
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel tSNE only
+	track ENCFF208JGB
+	parent compos_muscle
+	bigDataUrl https://www.encodeproject.org/files/ENCFF208JGB/@@download/ENCFF208JGB.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 204,153,255
+	height maxHeightPixels 32:12:8
+	shortLabel smooth muscle cel
+	longLabel ENCFF208JGB smooth muscle cell
 	itemRgb On
 	darkerLabels on
 
@@ -9404,6 +9390,20 @@ darkerLabels on
 	darkerLabels on
 
 
+	exclusionlabel tSNE and Zhiping
+	track ENCFF069GRI
+	parent compos_prostate
+	bigDataUrl https://www.encodeproject.org/files/ENCFF069GRI/@@download/ENCFF069GRI.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 204,102,51
+	height maxHeightPixels 32:12:8
+	shortLabel prostate gland
+	longLabel ENCFF069GRI prostate gland male adult (37 years)
+	itemRgb On
+	darkerLabels on
+
+
 	exclusionlabel SPOT, tSNE, and Zhiping
 	track ENCFF068YUS
 	parent compos_testis
@@ -9474,6 +9474,20 @@ darkerLabels on
 	darkerLabels on
 
 
+	exclusionlabel SPOT and tSNE
+	track ENCFF116YEY
+	parent compos_pancreas
+	bigDataUrl https://www.encodeproject.org/files/ENCFF116YEY/@@download/ENCFF116YEY.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 204,51,255
+	height maxHeightPixels 32:12:8
+	shortLabel body of pancreas
+	longLabel ENCFF116YEY body of pancreas female adult (53 years)
+	itemRgb On
+	darkerLabels on
+
+
 	exclusionlabel all good
 	track ENCFF095KFF
 	parent compos_pancreas
@@ -9498,20 +9512,6 @@ darkerLabels on
 	height maxHeightPixels 32:12:8
 	shortLabel body of pancreas
 	longLabel ENCFF102SIK body of pancreas male adult (54 years)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
-	track ENCFF116YEY
-	parent compos_pancreas
-	bigDataUrl https://www.encodeproject.org/files/ENCFF116YEY/@@download/ENCFF116YEY.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 204,51,255
-	height maxHeightPixels 32:12:8
-	shortLabel body of pancreas
-	longLabel ENCFF116YEY body of pancreas female adult (53 years)
 	itemRgb On
 	darkerLabels on
 
@@ -9810,16 +9810,16 @@ darkerLabels on
 	darkerLabels on
 
 
-	exclusionlabel Zhiping and tSNE
-	track ENCFF080JZX
+	exclusionlabel SPOT only
+	track ENCFF415UET
 	parent compos_adrenal
-	bigDataUrl https://www.encodeproject.org/files/ENCFF080JZX/@@download/ENCFF080JZX.bigWig?proxy=true
+	bigDataUrl https://www.encodeproject.org/files/ENCFF415UET/@@download/ENCFF415UET.bigWig?proxy=true
 	visibility full
 	type bigWig
 	color 51,51,204
 	height maxHeightPixels 32:12:8
 	shortLabel adrenal gland
-	longLabel ENCFF080JZX adrenal gland female adult (53 years)
+	longLabel ENCFF415UET adrenal gland male adult (54 years)
 	itemRgb On
 	darkerLabels on
 
@@ -9881,20 +9881,6 @@ darkerLabels on
 
 
 	exclusionlabel all good
-	track ENCFF415UET
-	parent compos_adrenal
-	bigDataUrl https://www.encodeproject.org/files/ENCFF415UET/@@download/ENCFF415UET.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 51,51,204
-	height maxHeightPixels 32:12:8
-	shortLabel adrenal gland
-	longLabel ENCFF415UET adrenal gland male adult (54 years)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
 	track ENCFF530PCA
 	parent compos_adrenal
 	bigDataUrl https://www.encodeproject.org/files/ENCFF530PCA/@@download/ENCFF530PCA.bigWig?proxy=true
@@ -9950,44 +9936,16 @@ darkerLabels on
 	darkerLabels on
 
 
-	exclusionlabel Zhiping and tSNE
-	track ENCFF288HWP
-	parent compos_stomach
-	bigDataUrl https://www.encodeproject.org/files/ENCFF288HWP/@@download/ENCFF288HWP.bigWig?proxy=true
+	exclusionlabel tSNE and Zhiping
+	track ENCFF080JZX
+	parent compos_adrenal
+	bigDataUrl https://www.encodeproject.org/files/ENCFF080JZX/@@download/ENCFF080JZX.bigWig?proxy=true
 	visibility full
 	type bigWig
-	color 51,204,255
+	color 51,51,204
 	height maxHeightPixels 32:12:8
-	shortLabel stomach
-	longLabel ENCFF288HWP stomach male adult (54 years)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel Zhiping and tSNE
-	track ENCFF766YIL
-	parent compos_stomach
-	bigDataUrl https://www.encodeproject.org/files/ENCFF766YIL/@@download/ENCFF766YIL.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 51,204,255
-	height maxHeightPixels 32:12:8
-	shortLabel stomach
-	longLabel ENCFF766YIL stomach female adult (51 year)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel Zhiping and tSNE
-	track ENCFF922TBR
-	parent compos_stomach
-	bigDataUrl https://www.encodeproject.org/files/ENCFF922TBR/@@download/ENCFF922TBR.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 51,204,255
-	height maxHeightPixels 32:12:8
-	shortLabel stomach
-	longLabel ENCFF922TBR stomach female adult (53 years)
+	shortLabel adrenal gland
+	longLabel ENCFF080JZX adrenal gland female adult (53 years)
 	itemRgb On
 	darkerLabels on
 
@@ -10230,6 +10188,48 @@ darkerLabels on
 	darkerLabels on
 
 
+	exclusionlabel tSNE and Zhiping
+	track ENCFF288HWP
+	parent compos_stomach
+	bigDataUrl https://www.encodeproject.org/files/ENCFF288HWP/@@download/ENCFF288HWP.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 51,204,255
+	height maxHeightPixels 32:12:8
+	shortLabel stomach
+	longLabel ENCFF288HWP stomach male adult (54 years)
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel tSNE and Zhiping
+	track ENCFF766YIL
+	parent compos_stomach
+	bigDataUrl https://www.encodeproject.org/files/ENCFF766YIL/@@download/ENCFF766YIL.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 51,204,255
+	height maxHeightPixels 32:12:8
+	shortLabel stomach
+	longLabel ENCFF766YIL stomach female adult (51 year)
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel tSNE and Zhiping
+	track ENCFF922TBR
+	parent compos_stomach
+	bigDataUrl https://www.encodeproject.org/files/ENCFF922TBR/@@download/ENCFF922TBR.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 51,204,255
+	height maxHeightPixels 32:12:8
+	shortLabel stomach
+	longLabel ENCFF922TBR stomach female adult (53 years)
+	itemRgb On
+	darkerLabels on
+
+
 	exclusionlabel all good
 	track ENCFF130BQK
 	parent compos_bone
@@ -10468,6 +10468,20 @@ darkerLabels on
 	darkerLabels on
 
 
+	exclusionlabel SPOT and tSNE
+	track ENCFF151SBP
+	parent compos_spinal_cord
+	bigDataUrl https://www.encodeproject.org/files/ENCFF151SBP/@@download/ENCFF151SBP.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 102,51,51
+	height maxHeightPixels 32:12:8
+	shortLabel medulla oblongata
+	longLabel ENCFF151SBP medulla oblongata male adult (78 years) and male adult (84 years)
+	itemRgb On
+	darkerLabels on
+
+
 	exclusionlabel all good
 	track ENCFF024WMP
 	parent compos_spinal_cord
@@ -10506,20 +10520,6 @@ darkerLabels on
 	height maxHeightPixels 32:12:8
 	shortLabel spinal cord
 	longLabel ENCFF085EFX spinal cord male embryo (105 days)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
-	track ENCFF151SBP
-	parent compos_spinal_cord
-	bigDataUrl https://www.encodeproject.org/files/ENCFF151SBP/@@download/ENCFF151SBP.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 102,51,51
-	height maxHeightPixels 32:12:8
-	shortLabel medulla oblongata
-	longLabel ENCFF151SBP medulla oblongata male adult (78 years) and male adult (84 years)
 	itemRgb On
 	darkerLabels on
 
@@ -10594,20 +10594,6 @@ darkerLabels on
 	darkerLabels on
 
 
-	exclusionlabel Zhiping and tSNE
-	track ENCFF037ZSW
-	parent compos_adipose
-	bigDataUrl https://www.encodeproject.org/files/ENCFF037ZSW/@@download/ENCFF037ZSW.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 255,0,153
-	height maxHeightPixels 32:12:8
-	shortLabel omental fat pad
-	longLabel ENCFF037ZSW omental fat pad female adult (51 year)
-	itemRgb On
-	darkerLabels on
-
-
 	exclusionlabel all good
 	track ENCFF248FDL
 	parent compos_adipose
@@ -10632,6 +10618,20 @@ darkerLabels on
 	height maxHeightPixels 32:12:8
 	shortLabel adipocyte
 	longLabel ENCFF531MYW adipocyte
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel tSNE and Zhiping
+	track ENCFF037ZSW
+	parent compos_adipose
+	bigDataUrl https://www.encodeproject.org/files/ENCFF037ZSW/@@download/ENCFF037ZSW.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 255,0,153
+	height maxHeightPixels 32:12:8
+	shortLabel omental fat pad
+	longLabel ENCFF037ZSW omental fat pad female adult (51 year)
 	itemRgb On
 	darkerLabels on
 
@@ -10790,6 +10790,20 @@ darkerLabels on
 	darkerLabels on
 
 
+	exclusionlabel SPOT only
+	track ENCFF410CYG
+	parent compos_stem_cell
+	bigDataUrl https://www.encodeproject.org/files/ENCFF410CYG/@@download/ENCFF410CYG.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 255,255,0
+	height maxHeightPixels 32:12:8
+	shortLabel amniotic stem cel
+	longLabel ENCFF410CYG amniotic stem cell
+	itemRgb On
+	darkerLabels on
+
+
 	exclusionlabel all good
 	track ENCFF131GBV
 	parent compos_stem_cell
@@ -10814,20 +10828,6 @@ darkerLabels on
 	height maxHeightPixels 32:12:8
 	shortLabel endodermal cell
 	longLabel ENCFF351KIA endodermal cell
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
-	track ENCFF410CYG
-	parent compos_stem_cell
-	bigDataUrl https://www.encodeproject.org/files/ENCFF410CYG/@@download/ENCFF410CYG.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 255,255,0
-	height maxHeightPixels 32:12:8
-	shortLabel amniotic stem cel
-	longLabel ENCFF410CYG amniotic stem cell
 	itemRgb On
 	darkerLabels on
 
@@ -10958,7 +10958,7 @@ darkerLabels on
 	darkerLabels on
 
 
-	exclusionlabel Zhiping and tSNE
+	exclusionlabel tSNE and Zhiping
 	track ENCFF083ELT
 	parent compos_nervous_system
 	bigDataUrl https://www.encodeproject.org/files/ENCFF083ELT/@@download/ENCFF083ELT.bigWig?proxy=true
@@ -10972,7 +10972,7 @@ darkerLabels on
 	darkerLabels on
 
 
-	exclusionlabel Zhiping and tSNE
+	exclusionlabel tSNE and Zhiping
 	track ENCFF094FZF
 	parent compos_nervous_system
 	bigDataUrl https://www.encodeproject.org/files/ENCFF094FZF/@@download/ENCFF094FZF.bigWig?proxy=true
@@ -10986,7 +10986,7 @@ darkerLabels on
 	darkerLabels on
 
 
-	exclusionlabel all good
+	exclusionlabel SPOT and tSNE
 	track ENCFF141YBL
 	parent compos_ovary
 	bigDataUrl https://www.encodeproject.org/files/ENCFF141YBL/@@download/ENCFF141YBL.bigWig?proxy=true
@@ -11028,7 +11028,7 @@ darkerLabels on
 	darkerLabels on
 
 
-	exclusionlabel all good
+	exclusionlabel tSNE only
 	track ENCFF802LRO
 	parent compos_ovary
 	bigDataUrl https://www.encodeproject.org/files/ENCFF802LRO/@@download/ENCFF802LRO.bigWig?proxy=true
@@ -11042,7 +11042,7 @@ darkerLabels on
 	darkerLabels on
 
 
-	exclusionlabel all good
+	exclusionlabel SPOT only
 	track ENCFF249WKV
 	parent compos_embryonic_structure
 	bigDataUrl https://www.encodeproject.org/files/ENCFF249WKV/@@download/ENCFF249WKV.bigWig?proxy=true
@@ -11056,7 +11056,7 @@ darkerLabels on
 	darkerLabels on
 
 
-	exclusionlabel all good
+	exclusionlabel SPOT only
 	track ENCFF401VUP
 	parent compos_embryonic_structure
 	bigDataUrl https://www.encodeproject.org/files/ENCFF401VUP/@@download/ENCFF401VUP.bigWig?proxy=true
@@ -11084,7 +11084,7 @@ darkerLabels on
 	darkerLabels on
 
 
-	exclusionlabel Zhiping and tSNE
+	exclusionlabel tSNE and Zhiping
 	track ENCFF154NSS
 	parent compos_vagina
 	bigDataUrl https://www.encodeproject.org/files/ENCFF154NSS/@@download/ENCFF154NSS.bigWig?proxy=true
@@ -11126,7 +11126,7 @@ darkerLabels on
 	darkerLabels on
 
 
-	exclusionlabel all good
+	exclusionlabel SPOT only
 	track ENCFF135BMZ
 	parent compos_limb
 	bigDataUrl https://www.encodeproject.org/files/ENCFF135BMZ/@@download/ENCFF135BMZ.bigWig?proxy=true
@@ -11136,6 +11136,20 @@ darkerLabels on
 	height maxHeightPixels 32:12:8
 	shortLabel limb
 	longLabel ENCFF135BMZ limb embryo (58 days) and embryo (59 days)
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel SPOT only
+	track ENCFF540ITV
+	parent compos_limb
+	bigDataUrl https://www.encodeproject.org/files/ENCFF540ITV/@@download/ENCFF540ITV.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 102,255,204
+	height maxHeightPixels 32:12:8
+	shortLabel limb
+	longLabel ENCFF540ITV limb embryo (53 days) and embryo (56 days)
 	itemRgb On
 	darkerLabels on
 
@@ -11150,20 +11164,6 @@ darkerLabels on
 	height maxHeightPixels 32:12:8
 	shortLabel limb
 	longLabel ENCFF215NAM limb embryo (53 days) and embryo (56 days)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
-	track ENCFF540ITV
-	parent compos_limb
-	bigDataUrl https://www.encodeproject.org/files/ENCFF540ITV/@@download/ENCFF540ITV.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 102,255,204
-	height maxHeightPixels 32:12:8
-	shortLabel limb
-	longLabel ENCFF540ITV limb embryo (53 days) and embryo (56 days)
 	itemRgb On
 	darkerLabels on
 
@@ -11252,20 +11252,6 @@ darkerLabels on
 	darkerLabels on
 
 
-	exclusionlabel Zhiping and tSNE
-	track ENCFF047HXB
-	parent compos_spleen
-	bigDataUrl https://www.encodeproject.org/files/ENCFF047HXB/@@download/ENCFF047HXB.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 51,0,204
-	height maxHeightPixels 32:12:8
-	shortLabel spleen
-	longLabel ENCFF047HXB spleen male adult (54 years)
-	itemRgb On
-	darkerLabels on
-
-
 	exclusionlabel Zhiping only
 	track ENCFF090EZE
 	parent compos_spleen
@@ -11276,6 +11262,20 @@ darkerLabels on
 	height maxHeightPixels 32:12:8
 	shortLabel spleen
 	longLabel ENCFF090EZE spleen embryo (112 days)
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel tSNE and Zhiping
+	track ENCFF047HXB
+	parent compos_spleen
+	bigDataUrl https://www.encodeproject.org/files/ENCFF047HXB/@@download/ENCFF047HXB.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 51,0,204
+	height maxHeightPixels 32:12:8
+	shortLabel spleen
+	longLabel ENCFF047HXB spleen male adult (54 years)
 	itemRgb On
 	darkerLabels on
 
@@ -11294,7 +11294,7 @@ darkerLabels on
 	darkerLabels on
 
 
-	exclusionlabel Zhiping and tSNE
+	exclusionlabel tSNE and Zhiping
 	track ENCFF376RIO
 	parent compos_esophagus
 	bigDataUrl https://www.encodeproject.org/files/ENCFF376RIO/@@download/ENCFF376RIO.bigWig?proxy=true
@@ -11322,7 +11322,7 @@ darkerLabels on
 	darkerLabels on
 
 
-	exclusionlabel all good
+	exclusionlabel SPOT and tSNE
 	track ENCFF782PXH
 	parent compos_stem_cells
 	bigDataUrl https://www.encodeproject.org/files/ENCFF782PXH/@@download/ENCFF782PXH.bigWig?proxy=true
@@ -11336,7 +11336,7 @@ darkerLabels on
 	darkerLabels on
 
 
-	exclusionlabel all good
+	exclusionlabel SPOT only
 	track ENCFF867YFT
 	parent compos_stem_cells
 	bigDataUrl https://www.encodeproject.org/files/ENCFF867YFT/@@download/ENCFF867YFT.bigWig?proxy=true
@@ -11351,11 +11351,25 @@ darkerLabels on
 
 
 
-track compos_SPOT_and_Zhiping_el
+track compos_SPOT_and_tSNE_el
 parent super_byLabel
 compositeTrack on
-shortLabel SPOT and Zhiping
-longLabel SPOT and Zhiping (1 exps)
+shortLabel SPOT and tSNE
+longLabel SPOT and tSNE (13 exps)
+type bigWig 9 +
+visibility full
+maxHeightPixels 32:12:8
+autoScale on
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+
+track compos_SPOT_only_el
+parent super_byLabel
+compositeTrack on
+shortLabel SPOT only
+longLabel SPOT only (15 exps)
 type bigWig 9 +
 visibility full
 maxHeightPixels 32:12:8
@@ -11379,11 +11393,11 @@ hoverMetadata on
 darkerLabels on
 
 
-track compos_Zhiping_and_tSNE_el
+track compos_Zhiping_and_SPOT_el
 parent super_byLabel
 compositeTrack on
-shortLabel Zhiping and tSNE
-longLabel Zhiping and tSNE (22 exps)
+shortLabel Zhiping and SPOT
+longLabel Zhiping and SPOT (1 exps)
 type bigWig 9 +
 visibility full
 maxHeightPixels 32:12:8
@@ -11411,7 +11425,35 @@ track compos_all_good_el
 parent super_byLabel
 compositeTrack on
 shortLabel all good
-longLabel all good (726 exps)
+longLabel all good (685 exps)
+type bigWig 9 +
+visibility full
+maxHeightPixels 32:12:8
+autoScale on
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+
+track compos_tSNE_and_Zhiping_el
+parent super_byLabel
+compositeTrack on
+shortLabel tSNE and Zhiping
+longLabel tSNE and Zhiping (22 exps)
+type bigWig 9 +
+visibility full
+maxHeightPixels 32:12:8
+autoScale on
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+
+track compos_tSNE_only_el
+parent super_byLabel
+compositeTrack on
+shortLabel tSNE only
+longLabel tSNE only (13 exps)
 type bigWig 9 +
 visibility full
 maxHeightPixels 32:12:8
@@ -11813,20 +11855,6 @@ darkerLabels on
 
 
 	exclusionlabel all good
-	track ENCFF049FUZ_el
-	parent compos_all_good_el
-	bigDataUrl https://www.encodeproject.org/files/ENCFF049FUZ/@@download/ENCFF049FUZ.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 0,51,102
-	height maxHeightPixels 32:12:8
-	shortLabel H9
-	longLabel ENCFF049FUZ H9 G1 phase genetically modified using stable transfection
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
 	track ENCFF052CAZ_el
 	parent compos_all_good_el
 	bigDataUrl https://www.encodeproject.org/files/ENCFF052CAZ/@@download/ENCFF052CAZ.bigWig?proxy=true
@@ -11878,20 +11906,6 @@ darkerLabels on
 	height maxHeightPixels 32:12:8
 	shortLabel skin fibroblast
 	longLabel ENCFF053JYY skin fibroblast male embryo (97 days)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
-	track ENCFF062BSK_el
-	parent compos_all_good_el
-	bigDataUrl https://www.encodeproject.org/files/ENCFF062BSK/@@download/ENCFF062BSK.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 204,255,51
-	height maxHeightPixels 32:12:8
-	shortLabel heart right ventr
-	longLabel ENCFF062BSK heart right ventricle female embryo (101 day) and female embryo (103
 	itemRgb On
 	darkerLabels on
 
@@ -11953,20 +11967,6 @@ darkerLabels on
 
 
 	exclusionlabel all good
-	track ENCFF068ZBX_el
-	parent compos_all_good_el
-	bigDataUrl https://www.encodeproject.org/files/ENCFF068ZBX/@@download/ENCFF068ZBX.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 153,51,153
-	height maxHeightPixels 32:12:8
-	shortLabel liver
-	longLabel ENCFF068ZBX liver embryo (59 days) and embryo (80 days)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
 	track ENCFF069WLL_el
 	parent compos_all_good_el
 	bigDataUrl https://www.encodeproject.org/files/ENCFF069WLL/@@download/ENCFF069WLL.bigWig?proxy=true
@@ -12004,20 +12004,6 @@ darkerLabels on
 	height maxHeightPixels 32:12:8
 	shortLabel spinal cord
 	longLabel ENCFF072UOA spinal cord male embryo (96 days)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
-	track ENCFF073UDC_el
-	parent compos_all_good_el
-	bigDataUrl https://www.encodeproject.org/files/ENCFF073UDC/@@download/ENCFF073UDC.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 255,102,51
-	height maxHeightPixels 32:12:8
-	shortLabel gastrocnemius med
-	longLabel ENCFF073UDC gastrocnemius medialis male adult (54 years)
 	itemRgb On
 	darkerLabels on
 
@@ -12163,20 +12149,6 @@ darkerLabels on
 
 
 	exclusionlabel all good
-	track ENCFF095HIQ_el
-	parent compos_all_good_el
-	bigDataUrl https://www.encodeproject.org/files/ENCFF095HIQ/@@download/ENCFF095HIQ.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 0,153,255
-	height maxHeightPixels 32:12:8
-	shortLabel ecto neural proge
-	longLabel ENCFF095HIQ ecto neural progenitor cell originated from H9
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
 	track ENCFF095KFF_el
 	parent compos_all_good_el
 	bigDataUrl https://www.encodeproject.org/files/ENCFF095KFF/@@download/ENCFF095KFF.bigWig?proxy=true
@@ -12317,20 +12289,6 @@ darkerLabels on
 
 
 	exclusionlabel all good
-	track ENCFF104JJN_el
-	parent compos_all_good_el
-	bigDataUrl https://www.encodeproject.org/files/ENCFF104JJN/@@download/ENCFF104JJN.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 153,153,204
-	height maxHeightPixels 32:12:8
-	shortLabel natural killer ce
-	longLabel ENCFF104JJN natural killer cell male adult (37 years)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
 	track ENCFF106TCU_el
 	parent compos_all_good_el
 	bigDataUrl https://www.encodeproject.org/files/ENCFF106TCU/@@download/ENCFF106TCU.bigWig?proxy=true
@@ -12429,20 +12387,6 @@ darkerLabels on
 
 
 	exclusionlabel all good
-	track ENCFF116YEY_el
-	parent compos_all_good_el
-	bigDataUrl https://www.encodeproject.org/files/ENCFF116YEY/@@download/ENCFF116YEY.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 204,255,255
-	height maxHeightPixels 32:12:8
-	shortLabel body of pancreas
-	longLabel ENCFF116YEY body of pancreas female adult (53 years)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
 	track ENCFF117DAB_el
 	parent compos_all_good_el
 	bigDataUrl https://www.encodeproject.org/files/ENCFF117DAB/@@download/ENCFF117DAB.bigWig?proxy=true
@@ -12494,34 +12438,6 @@ darkerLabels on
 	height maxHeightPixels 32:12:8
 	shortLabel H1-hESC
 	longLabel ENCFF117WXM H1-hESC
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
-	track ENCFF121CVF_el
-	parent compos_all_good_el
-	bigDataUrl https://www.encodeproject.org/files/ENCFF121CVF/@@download/ENCFF121CVF.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 153,153,204
-	height maxHeightPixels 32:12:8
-	shortLabel hematopoietic mul
-	longLabel ENCFF121CVF hematopoietic multipotent progenitor cell treated with interleukin-3
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
-	track ENCFF123CTY_el
-	parent compos_all_good_el
-	bigDataUrl https://www.encodeproject.org/files/ENCFF123CTY/@@download/ENCFF123CTY.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 255,102,51
-	height maxHeightPixels 32:12:8
-	shortLabel smooth muscle cel
-	longLabel ENCFF123CTY smooth muscle cell
 	itemRgb On
 	darkerLabels on
 
@@ -12723,20 +12639,6 @@ darkerLabels on
 
 
 	exclusionlabel all good
-	track ENCFF135BMZ_el
-	parent compos_all_good_el
-	bigDataUrl https://www.encodeproject.org/files/ENCFF135BMZ/@@download/ENCFF135BMZ.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 102,255,0
-	height maxHeightPixels 32:12:8
-	shortLabel limb
-	longLabel ENCFF135BMZ limb embryo (58 days) and embryo (59 days)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
 	track ENCFF135UCT_el
 	parent compos_all_good_el
 	bigDataUrl https://www.encodeproject.org/files/ENCFF135UCT/@@download/ENCFF135UCT.bigWig?proxy=true
@@ -12821,20 +12723,6 @@ darkerLabels on
 
 
 	exclusionlabel all good
-	track ENCFF141YBL_el
-	parent compos_all_good_el
-	bigDataUrl https://www.encodeproject.org/files/ENCFF141YBL/@@download/ENCFF141YBL.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 102,204,102
-	height maxHeightPixels 32:12:8
-	shortLabel ovary
-	longLabel ENCFF141YBL ovary female adult (51 year)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
 	track ENCFF143RMC_el
 	parent compos_all_good_el
 	bigDataUrl https://www.encodeproject.org/files/ENCFF143RMC/@@download/ENCFF143RMC.bigWig?proxy=true
@@ -12900,20 +12788,6 @@ darkerLabels on
 	height maxHeightPixels 32:12:8
 	shortLabel left lung
 	longLabel ENCFF149IUC left lung female embryo (117 days)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
-	track ENCFF151SBP_el
-	parent compos_all_good_el
-	bigDataUrl https://www.encodeproject.org/files/ENCFF151SBP/@@download/ENCFF151SBP.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 51,153,0
-	height maxHeightPixels 32:12:8
-	shortLabel medulla oblongata
-	longLabel ENCFF151SBP medulla oblongata male adult (78 years) and male adult (84 years)
 	itemRgb On
 	darkerLabels on
 
@@ -13054,20 +12928,6 @@ darkerLabels on
 	height maxHeightPixels 32:12:8
 	shortLabel heart
 	longLabel ENCFF162WFN heart female embryo (116 days) and female embryo (98 days)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
-	track ENCFF162XBG_el
-	parent compos_all_good_el
-	bigDataUrl https://www.encodeproject.org/files/ENCFF162XBG/@@download/ENCFF162XBG.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 153,153,204
-	height maxHeightPixels 32:12:8
-	shortLabel hematopoietic mul
-	longLabel ENCFF162XBG hematopoietic multipotent progenitor cell treated with interleukin-3
 	itemRgb On
 	darkerLabels on
 
@@ -13521,20 +13381,6 @@ darkerLabels on
 
 
 	exclusionlabel all good
-	track ENCFF208JGB_el
-	parent compos_all_good_el
-	bigDataUrl https://www.encodeproject.org/files/ENCFF208JGB/@@download/ENCFF208JGB.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 255,102,51
-	height maxHeightPixels 32:12:8
-	shortLabel smooth muscle cel
-	longLabel ENCFF208JGB smooth muscle cell
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
 	track ENCFF209YFM_el
 	parent compos_all_good_el
 	bigDataUrl https://www.encodeproject.org/files/ENCFF209YFM/@@download/ENCFF209YFM.bigWig?proxy=true
@@ -13787,20 +13633,6 @@ darkerLabels on
 
 
 	exclusionlabel all good
-	track ENCFF225GCE_el
-	parent compos_all_good_el
-	bigDataUrl https://www.encodeproject.org/files/ENCFF225GCE/@@download/ENCFF225GCE.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 0,153,255
-	height maxHeightPixels 32:12:8
-	shortLabel midbrain
-	longLabel ENCFF225GCE midbrain male adult (78 years) and male adult (84 years)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
 	track ENCFF225OLI_el
 	parent compos_all_good_el
 	bigDataUrl https://www.encodeproject.org/files/ENCFF225OLI/@@download/ENCFF225OLI.bigWig?proxy=true
@@ -13838,20 +13670,6 @@ darkerLabels on
 	height maxHeightPixels 32:12:8
 	shortLabel pancreas
 	longLabel ENCFF230OUF pancreas male adult (34 years)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
-	track ENCFF233ORX_el
-	parent compos_all_good_el
-	bigDataUrl https://www.encodeproject.org/files/ENCFF233ORX/@@download/ENCFF233ORX.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 255,255,102
-	height maxHeightPixels 32:12:8
-	shortLabel ascending aorta
-	longLabel ENCFF233ORX ascending aorta female adult (51 year)
 	itemRgb On
 	darkerLabels on
 
@@ -13992,20 +13810,6 @@ darkerLabels on
 	height maxHeightPixels 32:12:8
 	shortLabel kidney
 	longLabel ENCFF248ZTQ kidney female embryo (76 days) and male embryo (76 days)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
-	track ENCFF249WKV_el
-	parent compos_all_good_el
-	bigDataUrl https://www.encodeproject.org/files/ENCFF249WKV/@@download/ENCFF249WKV.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 102,153,153
-	height maxHeightPixels 32:12:8
-	shortLabel embryonic facial 
-	longLabel ENCFF249WKV embryonic facial prominence embryo (53 days) and embryo (58 days)
 	itemRgb On
 	darkerLabels on
 
@@ -15467,20 +15271,6 @@ darkerLabels on
 
 
 	exclusionlabel all good
-	track ENCFF401VUP_el
-	parent compos_all_good_el
-	bigDataUrl https://www.encodeproject.org/files/ENCFF401VUP/@@download/ENCFF401VUP.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 102,153,153
-	height maxHeightPixels 32:12:8
-	shortLabel embryonic facial 
-	longLabel ENCFF401VUP embryonic facial prominence embryo (53 days) and embryo (58 days)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
 	track ENCFF407LCA_el
 	parent compos_all_good_el
 	bigDataUrl https://www.encodeproject.org/files/ENCFF407LCA/@@download/ENCFF407LCA.bigWig?proxy=true
@@ -15490,20 +15280,6 @@ darkerLabels on
 	height maxHeightPixels 32:12:8
 	shortLabel renal pelvis
 	longLabel ENCFF407LCA renal pelvis female embryo (103 days)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
-	track ENCFF410CYG_el
-	parent compos_all_good_el
-	bigDataUrl https://www.encodeproject.org/files/ENCFF410CYG/@@download/ENCFF410CYG.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 153,153,153
-	height maxHeightPixels 32:12:8
-	shortLabel amniotic stem cel
-	longLabel ENCFF410CYG amniotic stem cell
 	itemRgb On
 	darkerLabels on
 
@@ -15574,20 +15350,6 @@ darkerLabels on
 	height maxHeightPixels 32:12:8
 	shortLabel left kidney
 	longLabel ENCFF415LNY left kidney female embryo (98 days)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
-	track ENCFF415UET_el
-	parent compos_all_good_el
-	bigDataUrl https://www.encodeproject.org/files/ENCFF415UET/@@download/ENCFF415UET.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 255,51,255
-	height maxHeightPixels 32:12:8
-	shortLabel adrenal gland
-	longLabel ENCFF415UET adrenal gland male adult (54 years)
 	itemRgb On
 	darkerLabels on
 
@@ -16181,20 +15943,6 @@ darkerLabels on
 
 
 	exclusionlabel all good
-	track ENCFF479JXO_el
-	parent compos_all_good_el
-	bigDataUrl https://www.encodeproject.org/files/ENCFF479JXO/@@download/ENCFF479JXO.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 255,51,0
-	height maxHeightPixels 32:12:8
-	shortLabel glomerular viscer
-	longLabel ENCFF479JXO glomerular visceral epithelial cell child (3 years)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
 	track ENCFF479VHW_el
 	parent compos_all_good_el
 	bigDataUrl https://www.encodeproject.org/files/ENCFF479VHW/@@download/ENCFF479VHW.bigWig?proxy=true
@@ -16377,20 +16125,6 @@ darkerLabels on
 
 
 	exclusionlabel all good
-	track ENCFF498QFP_el
-	parent compos_all_good_el
-	bigDataUrl https://www.encodeproject.org/files/ENCFF498QFP/@@download/ENCFF498QFP.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 0,153,255
-	height maxHeightPixels 32:12:8
-	shortLabel caudate nucleus
-	longLabel ENCFF498QFP caudate nucleus male adult (78 years)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
 	track ENCFF499KPZ_el
 	parent compos_all_good_el
 	bigDataUrl https://www.encodeproject.org/files/ENCFF499KPZ/@@download/ENCFF499KPZ.bigWig?proxy=true
@@ -16498,20 +16232,6 @@ darkerLabels on
 	height maxHeightPixels 32:12:8
 	shortLabel OCI-LY7
 	longLabel ENCFF506FHA OCI-LY7
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
-	track ENCFF508ADO_el
-	parent compos_all_good_el
-	bigDataUrl https://www.encodeproject.org/files/ENCFF508ADO/@@download/ENCFF508ADO.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 153,153,204
-	height maxHeightPixels 32:12:8
-	shortLabel T-cell
-	longLabel ENCFF508ADO T-cell male adult (36 years)
 	itemRgb On
 	darkerLabels on
 
@@ -16867,20 +16587,6 @@ darkerLabels on
 
 
 	exclusionlabel all good
-	track ENCFF540ITV_el
-	parent compos_all_good_el
-	bigDataUrl https://www.encodeproject.org/files/ENCFF540ITV/@@download/ENCFF540ITV.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 102,255,0
-	height maxHeightPixels 32:12:8
-	shortLabel limb
-	longLabel ENCFF540ITV limb embryo (53 days) and embryo (56 days)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
 	track ENCFF540MDC_el
 	parent compos_all_good_el
 	bigDataUrl https://www.encodeproject.org/files/ENCFF540MDC/@@download/ENCFF540MDC.bigWig?proxy=true
@@ -16932,20 +16638,6 @@ darkerLabels on
 	height maxHeightPixels 32:12:8
 	shortLabel kidney
 	longLabel ENCFF547ICI kidney female embryo (108 days)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
-	track ENCFF547ZQF_el
-	parent compos_all_good_el
-	bigDataUrl https://www.encodeproject.org/files/ENCFF547ZQF/@@download/ENCFF547ZQF.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 0,153,255
-	height maxHeightPixels 32:12:8
-	shortLabel midbrain
-	longLabel ENCFF547ZQF midbrain male adult (78 years) and male adult (84 years)
 	itemRgb On
 	darkerLabels on
 
@@ -17072,20 +16764,6 @@ darkerLabels on
 	height maxHeightPixels 32:12:8
 	shortLabel T-helper 17 cell
 	longLabel ENCFF566QDG T-helper 17 cell
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
-	track ENCFF568EAH_el
-	parent compos_all_good_el
-	bigDataUrl https://www.encodeproject.org/files/ENCFF568EAH/@@download/ENCFF568EAH.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 0,153,255
-	height maxHeightPixels 32:12:8
-	shortLabel occipital lobe
-	longLabel ENCFF568EAH occipital lobe male adult (84 years)
 	itemRgb On
 	darkerLabels on
 
@@ -17595,20 +17273,6 @@ darkerLabels on
 
 
 	exclusionlabel all good
-	track ENCFF622JVD_el
-	parent compos_all_good_el
-	bigDataUrl https://www.encodeproject.org/files/ENCFF622JVD/@@download/ENCFF622JVD.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 153,153,204
-	height maxHeightPixels 32:12:8
-	shortLabel regulatory T cell
-	longLabel ENCFF622JVD regulatory T cell male adult (28 years)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
 	track ENCFF622PZI_el
 	parent compos_all_good_el
 	bigDataUrl https://www.encodeproject.org/files/ENCFF622PZI/@@download/ENCFF622PZI.bigWig?proxy=true
@@ -17702,20 +17366,6 @@ darkerLabels on
 	height maxHeightPixels 32:12:8
 	shortLabel right renal pelvi
 	longLabel ENCFF630KCX right renal pelvis male embryo (105 days)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
-	track ENCFF630MXI_el
-	parent compos_all_good_el
-	bigDataUrl https://www.encodeproject.org/files/ENCFF630MXI/@@download/ENCFF630MXI.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 0,51,102
-	height maxHeightPixels 32:12:8
-	shortLabel H9
-	longLabel ENCFF630MXI H9 G1 phase genetically modified using stable transfection
 	itemRgb On
 	darkerLabels on
 
@@ -18141,20 +17791,6 @@ darkerLabels on
 
 
 	exclusionlabel all good
-	track ENCFF667COT_el
-	parent compos_all_good_el
-	bigDataUrl https://www.encodeproject.org/files/ENCFF667COT/@@download/ENCFF667COT.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 153,153,204
-	height maxHeightPixels 32:12:8
-	shortLabel hematopoietic mul
-	longLabel ENCFF667COT hematopoietic multipotent progenitor cell treated with interleukin-3
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
 	track ENCFF669AED_el
 	parent compos_all_good_el
 	bigDataUrl https://www.encodeproject.org/files/ENCFF669AED/@@download/ENCFF669AED.bigWig?proxy=true
@@ -18220,20 +17856,6 @@ darkerLabels on
 	height maxHeightPixels 32:12:8
 	shortLabel thyroid gland
 	longLabel ENCFF677VKI thyroid gland male adult (37 years)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
-	track ENCFF678EIG_el
-	parent compos_all_good_el
-	bigDataUrl https://www.encodeproject.org/files/ENCFF678EIG/@@download/ENCFF678EIG.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 204,255,51
-	height maxHeightPixels 32:12:8
-	shortLabel heart left ventri
-	longLabel ENCFF678EIG heart left ventricle female adult (53 years)
 	itemRgb On
 	darkerLabels on
 
@@ -18570,20 +18192,6 @@ darkerLabels on
 	height maxHeightPixels 32:12:8
 	shortLabel renal cortex inte
 	longLabel ENCFF701FFX renal cortex interstitium female embryo (96 days)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
-	track ENCFF702IWR_el
-	parent compos_all_good_el
-	bigDataUrl https://www.encodeproject.org/files/ENCFF702IWR/@@download/ENCFF702IWR.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 204,255,51
-	height maxHeightPixels 32:12:8
-	shortLabel heart
-	longLabel ENCFF702IWR heart male embryo (72 days) and male embryo (76 days)
 	itemRgb On
 	darkerLabels on
 
@@ -19107,20 +18715,6 @@ darkerLabels on
 
 
 	exclusionlabel all good
-	track ENCFF745RLH_el
-	parent compos_all_good_el
-	bigDataUrl https://www.encodeproject.org/files/ENCFF745RLH/@@download/ENCFF745RLH.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 0,51,102
-	height maxHeightPixels 32:12:8
-	shortLabel H9
-	longLabel ENCFF745RLH H9
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
 	track ENCFF746DZE_el
 	parent compos_all_good_el
 	bigDataUrl https://www.encodeproject.org/files/ENCFF746DZE/@@download/ENCFF746DZE.bigWig?proxy=true
@@ -19228,20 +18822,6 @@ darkerLabels on
 	height maxHeightPixels 32:12:8
 	shortLabel L1-S8
 	longLabel ENCFF751CPM L1-S8
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
-	track ENCFF751LHL_el
-	parent compos_all_good_el
-	bigDataUrl https://www.encodeproject.org/files/ENCFF751LHL/@@download/ENCFF751LHL.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 0,153,255
-	height maxHeightPixels 32:12:8
-	shortLabel middle frontal gy
-	longLabel ENCFF751LHL middle frontal gyrus male adult (78 years)
 	itemRgb On
 	darkerLabels on
 
@@ -19499,20 +19079,6 @@ darkerLabels on
 
 
 	exclusionlabel all good
-	track ENCFF782PXH_el
-	parent compos_all_good_el
-	bigDataUrl https://www.encodeproject.org/files/ENCFF782PXH/@@download/ENCFF782PXH.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 102,0,51
-	height maxHeightPixels 32:12:8
-	shortLabel dedifferentiated 
-	longLabel ENCFF782PXH dedifferentiated amniotic fluid mesenchymal stem cell
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
 	track ENCFF782WKY_el
 	parent compos_all_good_el
 	bigDataUrl https://www.encodeproject.org/files/ENCFF782WKY/@@download/ENCFF782WKY.bigWig?proxy=true
@@ -19625,20 +19191,6 @@ darkerLabels on
 
 
 	exclusionlabel all good
-	track ENCFF792NVL_el
-	parent compos_all_good_el
-	bigDataUrl https://www.encodeproject.org/files/ENCFF792NVL/@@download/ENCFF792NVL.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 204,0,204
-	height maxHeightPixels 32:12:8
-	shortLabel skin of body
-	longLabel ENCFF792NVL skin of body female embryo (82 days)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
 	track ENCFF795TGF_el
 	parent compos_all_good_el
 	bigDataUrl https://www.encodeproject.org/files/ENCFF795TGF/@@download/ENCFF795TGF.bigWig?proxy=true
@@ -19732,20 +19284,6 @@ darkerLabels on
 	height maxHeightPixels 32:12:8
 	shortLabel dermis blood vess
 	longLabel ENCFF802HMY dermis blood vessel endothelial cell female adult
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
-	track ENCFF802LRO_el
-	parent compos_all_good_el
-	bigDataUrl https://www.encodeproject.org/files/ENCFF802LRO/@@download/ENCFF802LRO.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 102,204,102
-	height maxHeightPixels 32:12:8
-	shortLabel ovary
-	longLabel ENCFF802LRO ovary female adult (53 years)
 	itemRgb On
 	darkerLabels on
 
@@ -20185,20 +19723,6 @@ darkerLabels on
 
 
 	exclusionlabel all good
-	track ENCFF848BGL_el
-	parent compos_all_good_el
-	bigDataUrl https://www.encodeproject.org/files/ENCFF848BGL/@@download/ENCFF848BGL.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 0,153,255
-	height maxHeightPixels 32:12:8
-	shortLabel inferior parietal
-	longLabel ENCFF848BGL inferior parietal cortex male adult (84 years)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
 	track ENCFF850IPE_el
 	parent compos_all_good_el
 	bigDataUrl https://www.encodeproject.org/files/ENCFF850IPE/@@download/ENCFF850IPE.bigWig?proxy=true
@@ -20353,20 +19877,6 @@ darkerLabels on
 
 
 	exclusionlabel all good
-	track ENCFF859IBW_el
-	parent compos_all_good_el
-	bigDataUrl https://www.encodeproject.org/files/ENCFF859IBW/@@download/ENCFF859IBW.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 255,255,102
-	height maxHeightPixels 32:12:8
-	shortLabel dermis blood vess
-	longLabel ENCFF859IBW dermis blood vessel endothelial cell female adult
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
 	track ENCFF862JVF_el
 	parent compos_all_good_el
 	bigDataUrl https://www.encodeproject.org/files/ENCFF862JVF/@@download/ENCFF862JVF.bigWig?proxy=true
@@ -20376,20 +19886,6 @@ darkerLabels on
 	height maxHeightPixels 32:12:8
 	shortLabel left kidney
 	longLabel ENCFF862JVF left kidney female embryo (59 days) and male embryo (91 day)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
-	track ENCFF867YFT_el
-	parent compos_all_good_el
-	bigDataUrl https://www.encodeproject.org/files/ENCFF867YFT/@@download/ENCFF867YFT.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 102,0,51
-	height maxHeightPixels 32:12:8
-	shortLabel dedifferentiated 
-	longLabel ENCFF867YFT dedifferentiated amniotic fluid mesenchymal stem cell
 	itemRgb On
 	darkerLabels on
 
@@ -20488,20 +19984,6 @@ darkerLabels on
 	height maxHeightPixels 32:12:8
 	shortLabel right renal pelvi
 	longLabel ENCFF881JSN right renal pelvis male embryo (105 days)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
-	track ENCFF882QOT_el
-	parent compos_all_good_el
-	bigDataUrl https://www.encodeproject.org/files/ENCFF882QOT/@@download/ENCFF882QOT.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 204,255,51
-	height maxHeightPixels 32:12:8
-	shortLabel cardiac fibroblas
-	longLabel ENCFF882QOT cardiac fibroblast female embryo (94 days) and female embryo (98 day
 	itemRgb On
 	darkerLabels on
 
@@ -21305,20 +20787,6 @@ darkerLabels on
 
 
 	exclusionlabel all good
-	track ENCFF967WSX_el
-	parent compos_all_good_el
-	bigDataUrl https://www.encodeproject.org/files/ENCFF967WSX/@@download/ENCFF967WSX.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 153,51,153
-	height maxHeightPixels 32:12:8
-	shortLabel liver
-	longLabel ENCFF967WSX liver embryo (59 days) and embryo (80 days)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
 	track ENCFF969NNQ_el
 	parent compos_all_good_el
 	bigDataUrl https://www.encodeproject.org/files/ENCFF969NNQ/@@download/ENCFF969NNQ.bigWig?proxy=true
@@ -21626,9 +21094,401 @@ darkerLabels on
 	darkerLabels on
 
 
-	exclusionlabel Zhiping and tSNE
+	exclusionlabel SPOT only
+	track ENCFF104JJN_el
+	parent compos_SPOT_only_el
+	bigDataUrl https://www.encodeproject.org/files/ENCFF104JJN/@@download/ENCFF104JJN.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 153,153,204
+	height maxHeightPixels 32:12:8
+	shortLabel natural killer ce
+	longLabel ENCFF104JJN natural killer cell male adult (37 years)
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel SPOT only
+	track ENCFF135BMZ_el
+	parent compos_SPOT_only_el
+	bigDataUrl https://www.encodeproject.org/files/ENCFF135BMZ/@@download/ENCFF135BMZ.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 102,255,0
+	height maxHeightPixels 32:12:8
+	shortLabel limb
+	longLabel ENCFF135BMZ limb embryo (58 days) and embryo (59 days)
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel SPOT only
+	track ENCFF162XBG_el
+	parent compos_SPOT_only_el
+	bigDataUrl https://www.encodeproject.org/files/ENCFF162XBG/@@download/ENCFF162XBG.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 153,153,204
+	height maxHeightPixels 32:12:8
+	shortLabel hematopoietic mul
+	longLabel ENCFF162XBG hematopoietic multipotent progenitor cell treated with interleukin-3
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel SPOT only
+	track ENCFF249WKV_el
+	parent compos_SPOT_only_el
+	bigDataUrl https://www.encodeproject.org/files/ENCFF249WKV/@@download/ENCFF249WKV.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 102,153,153
+	height maxHeightPixels 32:12:8
+	shortLabel embryonic facial 
+	longLabel ENCFF249WKV embryonic facial prominence embryo (53 days) and embryo (58 days)
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel SPOT only
+	track ENCFF401VUP_el
+	parent compos_SPOT_only_el
+	bigDataUrl https://www.encodeproject.org/files/ENCFF401VUP/@@download/ENCFF401VUP.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 102,153,153
+	height maxHeightPixels 32:12:8
+	shortLabel embryonic facial 
+	longLabel ENCFF401VUP embryonic facial prominence embryo (53 days) and embryo (58 days)
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel SPOT only
+	track ENCFF410CYG_el
+	parent compos_SPOT_only_el
+	bigDataUrl https://www.encodeproject.org/files/ENCFF410CYG/@@download/ENCFF410CYG.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 153,153,153
+	height maxHeightPixels 32:12:8
+	shortLabel amniotic stem cel
+	longLabel ENCFF410CYG amniotic stem cell
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel SPOT only
+	track ENCFF415UET_el
+	parent compos_SPOT_only_el
+	bigDataUrl https://www.encodeproject.org/files/ENCFF415UET/@@download/ENCFF415UET.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 255,51,255
+	height maxHeightPixels 32:12:8
+	shortLabel adrenal gland
+	longLabel ENCFF415UET adrenal gland male adult (54 years)
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel SPOT only
+	track ENCFF479JXO_el
+	parent compos_SPOT_only_el
+	bigDataUrl https://www.encodeproject.org/files/ENCFF479JXO/@@download/ENCFF479JXO.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 255,51,0
+	height maxHeightPixels 32:12:8
+	shortLabel glomerular viscer
+	longLabel ENCFF479JXO glomerular visceral epithelial cell child (3 years)
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel SPOT only
+	track ENCFF508ADO_el
+	parent compos_SPOT_only_el
+	bigDataUrl https://www.encodeproject.org/files/ENCFF508ADO/@@download/ENCFF508ADO.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 153,153,204
+	height maxHeightPixels 32:12:8
+	shortLabel T-cell
+	longLabel ENCFF508ADO T-cell male adult (36 years)
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel SPOT only
+	track ENCFF540ITV_el
+	parent compos_SPOT_only_el
+	bigDataUrl https://www.encodeproject.org/files/ENCFF540ITV/@@download/ENCFF540ITV.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 102,255,0
+	height maxHeightPixels 32:12:8
+	shortLabel limb
+	longLabel ENCFF540ITV limb embryo (53 days) and embryo (56 days)
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel SPOT only
+	track ENCFF667COT_el
+	parent compos_SPOT_only_el
+	bigDataUrl https://www.encodeproject.org/files/ENCFF667COT/@@download/ENCFF667COT.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 153,153,204
+	height maxHeightPixels 32:12:8
+	shortLabel hematopoietic mul
+	longLabel ENCFF667COT hematopoietic multipotent progenitor cell treated with interleukin-3
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel SPOT only
+	track ENCFF792NVL_el
+	parent compos_SPOT_only_el
+	bigDataUrl https://www.encodeproject.org/files/ENCFF792NVL/@@download/ENCFF792NVL.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 204,0,204
+	height maxHeightPixels 32:12:8
+	shortLabel skin of body
+	longLabel ENCFF792NVL skin of body female embryo (82 days)
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel SPOT only
+	track ENCFF859IBW_el
+	parent compos_SPOT_only_el
+	bigDataUrl https://www.encodeproject.org/files/ENCFF859IBW/@@download/ENCFF859IBW.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 255,255,102
+	height maxHeightPixels 32:12:8
+	shortLabel dermis blood vess
+	longLabel ENCFF859IBW dermis blood vessel endothelial cell female adult
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel SPOT only
+	track ENCFF867YFT_el
+	parent compos_SPOT_only_el
+	bigDataUrl https://www.encodeproject.org/files/ENCFF867YFT/@@download/ENCFF867YFT.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 102,0,51
+	height maxHeightPixels 32:12:8
+	shortLabel dedifferentiated 
+	longLabel ENCFF867YFT dedifferentiated amniotic fluid mesenchymal stem cell
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel SPOT only
+	track ENCFF967WSX_el
+	parent compos_SPOT_only_el
+	bigDataUrl https://www.encodeproject.org/files/ENCFF967WSX/@@download/ENCFF967WSX.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 153,51,153
+	height maxHeightPixels 32:12:8
+	shortLabel liver
+	longLabel ENCFF967WSX liver embryo (59 days) and embryo (80 days)
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel SPOT and tSNE
+	track ENCFF116YEY_el
+	parent compos_SPOT_and_tSNE_el
+	bigDataUrl https://www.encodeproject.org/files/ENCFF116YEY/@@download/ENCFF116YEY.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 204,255,255
+	height maxHeightPixels 32:12:8
+	shortLabel body of pancreas
+	longLabel ENCFF116YEY body of pancreas female adult (53 years)
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel SPOT and tSNE
+	track ENCFF121CVF_el
+	parent compos_SPOT_and_tSNE_el
+	bigDataUrl https://www.encodeproject.org/files/ENCFF121CVF/@@download/ENCFF121CVF.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 153,153,204
+	height maxHeightPixels 32:12:8
+	shortLabel hematopoietic mul
+	longLabel ENCFF121CVF hematopoietic multipotent progenitor cell treated with interleukin-3
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel SPOT and tSNE
+	track ENCFF141YBL_el
+	parent compos_SPOT_and_tSNE_el
+	bigDataUrl https://www.encodeproject.org/files/ENCFF141YBL/@@download/ENCFF141YBL.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 102,204,102
+	height maxHeightPixels 32:12:8
+	shortLabel ovary
+	longLabel ENCFF141YBL ovary female adult (51 year)
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel SPOT and tSNE
+	track ENCFF151SBP_el
+	parent compos_SPOT_and_tSNE_el
+	bigDataUrl https://www.encodeproject.org/files/ENCFF151SBP/@@download/ENCFF151SBP.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 51,153,0
+	height maxHeightPixels 32:12:8
+	shortLabel medulla oblongata
+	longLabel ENCFF151SBP medulla oblongata male adult (78 years) and male adult (84 years)
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel SPOT and tSNE
+	track ENCFF225GCE_el
+	parent compos_SPOT_and_tSNE_el
+	bigDataUrl https://www.encodeproject.org/files/ENCFF225GCE/@@download/ENCFF225GCE.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 0,153,255
+	height maxHeightPixels 32:12:8
+	shortLabel midbrain
+	longLabel ENCFF225GCE midbrain male adult (78 years) and male adult (84 years)
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel SPOT and tSNE
+	track ENCFF498QFP_el
+	parent compos_SPOT_and_tSNE_el
+	bigDataUrl https://www.encodeproject.org/files/ENCFF498QFP/@@download/ENCFF498QFP.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 0,153,255
+	height maxHeightPixels 32:12:8
+	shortLabel caudate nucleus
+	longLabel ENCFF498QFP caudate nucleus male adult (78 years)
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel SPOT and tSNE
+	track ENCFF622JVD_el
+	parent compos_SPOT_and_tSNE_el
+	bigDataUrl https://www.encodeproject.org/files/ENCFF622JVD/@@download/ENCFF622JVD.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 153,153,204
+	height maxHeightPixels 32:12:8
+	shortLabel regulatory T cell
+	longLabel ENCFF622JVD regulatory T cell male adult (28 years)
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel SPOT and tSNE
+	track ENCFF630MXI_el
+	parent compos_SPOT_and_tSNE_el
+	bigDataUrl https://www.encodeproject.org/files/ENCFF630MXI/@@download/ENCFF630MXI.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 0,51,102
+	height maxHeightPixels 32:12:8
+	shortLabel H9
+	longLabel ENCFF630MXI H9 G1 phase genetically modified using stable transfection
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel SPOT and tSNE
+	track ENCFF702IWR_el
+	parent compos_SPOT_and_tSNE_el
+	bigDataUrl https://www.encodeproject.org/files/ENCFF702IWR/@@download/ENCFF702IWR.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 204,255,51
+	height maxHeightPixels 32:12:8
+	shortLabel heart
+	longLabel ENCFF702IWR heart male embryo (72 days) and male embryo (76 days)
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel SPOT and tSNE
+	track ENCFF751LHL_el
+	parent compos_SPOT_and_tSNE_el
+	bigDataUrl https://www.encodeproject.org/files/ENCFF751LHL/@@download/ENCFF751LHL.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 0,153,255
+	height maxHeightPixels 32:12:8
+	shortLabel middle frontal gy
+	longLabel ENCFF751LHL middle frontal gyrus male adult (78 years)
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel SPOT and tSNE
+	track ENCFF782PXH_el
+	parent compos_SPOT_and_tSNE_el
+	bigDataUrl https://www.encodeproject.org/files/ENCFF782PXH/@@download/ENCFF782PXH.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 102,0,51
+	height maxHeightPixels 32:12:8
+	shortLabel dedifferentiated 
+	longLabel ENCFF782PXH dedifferentiated amniotic fluid mesenchymal stem cell
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel SPOT and tSNE
+	track ENCFF848BGL_el
+	parent compos_SPOT_and_tSNE_el
+	bigDataUrl https://www.encodeproject.org/files/ENCFF848BGL/@@download/ENCFF848BGL.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 0,153,255
+	height maxHeightPixels 32:12:8
+	shortLabel inferior parietal
+	longLabel ENCFF848BGL inferior parietal cortex male adult (84 years)
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel SPOT and tSNE
+	track ENCFF882QOT_el
+	parent compos_SPOT_and_tSNE_el
+	bigDataUrl https://www.encodeproject.org/files/ENCFF882QOT/@@download/ENCFF882QOT.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 204,255,51
+	height maxHeightPixels 32:12:8
+	shortLabel cardiac fibroblas
+	longLabel ENCFF882QOT cardiac fibroblast female embryo (94 days) and female embryo (98 day
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel tSNE and Zhiping
 	track ENCFF037ZSW_el
-	parent compos_Zhiping_and_tSNE_el
+	parent compos_tSNE_and_Zhiping_el
 	bigDataUrl https://www.encodeproject.org/files/ENCFF037ZSW/@@download/ENCFF037ZSW.bigWig?proxy=true
 	visibility full
 	type bigWig
@@ -21640,9 +21500,9 @@ darkerLabels on
 	darkerLabels on
 
 
-	exclusionlabel Zhiping and tSNE
+	exclusionlabel tSNE and Zhiping
 	track ENCFF047HXB_el
-	parent compos_Zhiping_and_tSNE_el
+	parent compos_tSNE_and_Zhiping_el
 	bigDataUrl https://www.encodeproject.org/files/ENCFF047HXB/@@download/ENCFF047HXB.bigWig?proxy=true
 	visibility full
 	type bigWig
@@ -21654,9 +21514,9 @@ darkerLabels on
 	darkerLabels on
 
 
-	exclusionlabel Zhiping and tSNE
+	exclusionlabel tSNE and Zhiping
 	track ENCFF069GRI_el
-	parent compos_Zhiping_and_tSNE_el
+	parent compos_tSNE_and_Zhiping_el
 	bigDataUrl https://www.encodeproject.org/files/ENCFF069GRI/@@download/ENCFF069GRI.bigWig?proxy=true
 	visibility full
 	type bigWig
@@ -21668,9 +21528,9 @@ darkerLabels on
 	darkerLabels on
 
 
-	exclusionlabel Zhiping and tSNE
+	exclusionlabel tSNE and Zhiping
 	track ENCFF080JZX_el
-	parent compos_Zhiping_and_tSNE_el
+	parent compos_tSNE_and_Zhiping_el
 	bigDataUrl https://www.encodeproject.org/files/ENCFF080JZX/@@download/ENCFF080JZX.bigWig?proxy=true
 	visibility full
 	type bigWig
@@ -21682,9 +21542,9 @@ darkerLabels on
 	darkerLabels on
 
 
-	exclusionlabel Zhiping and tSNE
+	exclusionlabel tSNE and Zhiping
 	track ENCFF083ELT_el
-	parent compos_Zhiping_and_tSNE_el
+	parent compos_tSNE_and_Zhiping_el
 	bigDataUrl https://www.encodeproject.org/files/ENCFF083ELT/@@download/ENCFF083ELT.bigWig?proxy=true
 	visibility full
 	type bigWig
@@ -21696,9 +21556,9 @@ darkerLabels on
 	darkerLabels on
 
 
-	exclusionlabel Zhiping and tSNE
+	exclusionlabel tSNE and Zhiping
 	track ENCFF094FZF_el
-	parent compos_Zhiping_and_tSNE_el
+	parent compos_tSNE_and_Zhiping_el
 	bigDataUrl https://www.encodeproject.org/files/ENCFF094FZF/@@download/ENCFF094FZF.bigWig?proxy=true
 	visibility full
 	type bigWig
@@ -21710,9 +21570,9 @@ darkerLabels on
 	darkerLabels on
 
 
-	exclusionlabel Zhiping and tSNE
+	exclusionlabel tSNE and Zhiping
 	track ENCFF146VLD_el
-	parent compos_Zhiping_and_tSNE_el
+	parent compos_tSNE_and_Zhiping_el
 	bigDataUrl https://www.encodeproject.org/files/ENCFF146VLD/@@download/ENCFF146VLD.bigWig?proxy=true
 	visibility full
 	type bigWig
@@ -21724,9 +21584,9 @@ darkerLabels on
 	darkerLabels on
 
 
-	exclusionlabel Zhiping and tSNE
+	exclusionlabel tSNE and Zhiping
 	track ENCFF154NSS_el
-	parent compos_Zhiping_and_tSNE_el
+	parent compos_tSNE_and_Zhiping_el
 	bigDataUrl https://www.encodeproject.org/files/ENCFF154NSS/@@download/ENCFF154NSS.bigWig?proxy=true
 	visibility full
 	type bigWig
@@ -21738,9 +21598,9 @@ darkerLabels on
 	darkerLabels on
 
 
-	exclusionlabel Zhiping and tSNE
+	exclusionlabel tSNE and Zhiping
 	track ENCFF288HWP_el
-	parent compos_Zhiping_and_tSNE_el
+	parent compos_tSNE_and_Zhiping_el
 	bigDataUrl https://www.encodeproject.org/files/ENCFF288HWP/@@download/ENCFF288HWP.bigWig?proxy=true
 	visibility full
 	type bigWig
@@ -21752,9 +21612,9 @@ darkerLabels on
 	darkerLabels on
 
 
-	exclusionlabel Zhiping and tSNE
+	exclusionlabel tSNE and Zhiping
 	track ENCFF300WUQ_el
-	parent compos_Zhiping_and_tSNE_el
+	parent compos_tSNE_and_Zhiping_el
 	bigDataUrl https://www.encodeproject.org/files/ENCFF300WUQ/@@download/ENCFF300WUQ.bigWig?proxy=true
 	visibility full
 	type bigWig
@@ -21766,9 +21626,9 @@ darkerLabels on
 	darkerLabels on
 
 
-	exclusionlabel Zhiping and tSNE
+	exclusionlabel tSNE and Zhiping
 	track ENCFF312ZWZ_el
-	parent compos_Zhiping_and_tSNE_el
+	parent compos_tSNE_and_Zhiping_el
 	bigDataUrl https://www.encodeproject.org/files/ENCFF312ZWZ/@@download/ENCFF312ZWZ.bigWig?proxy=true
 	visibility full
 	type bigWig
@@ -21780,9 +21640,9 @@ darkerLabels on
 	darkerLabels on
 
 
-	exclusionlabel Zhiping and tSNE
+	exclusionlabel tSNE and Zhiping
 	track ENCFF367MHB_el
-	parent compos_Zhiping_and_tSNE_el
+	parent compos_tSNE_and_Zhiping_el
 	bigDataUrl https://www.encodeproject.org/files/ENCFF367MHB/@@download/ENCFF367MHB.bigWig?proxy=true
 	visibility full
 	type bigWig
@@ -21794,9 +21654,9 @@ darkerLabels on
 	darkerLabels on
 
 
-	exclusionlabel Zhiping and tSNE
+	exclusionlabel tSNE and Zhiping
 	track ENCFF376RIO_el
-	parent compos_Zhiping_and_tSNE_el
+	parent compos_tSNE_and_Zhiping_el
 	bigDataUrl https://www.encodeproject.org/files/ENCFF376RIO/@@download/ENCFF376RIO.bigWig?proxy=true
 	visibility full
 	type bigWig
@@ -21808,9 +21668,9 @@ darkerLabels on
 	darkerLabels on
 
 
-	exclusionlabel Zhiping and tSNE
+	exclusionlabel tSNE and Zhiping
 	track ENCFF412KRU_el
-	parent compos_Zhiping_and_tSNE_el
+	parent compos_tSNE_and_Zhiping_el
 	bigDataUrl https://www.encodeproject.org/files/ENCFF412KRU/@@download/ENCFF412KRU.bigWig?proxy=true
 	visibility full
 	type bigWig
@@ -21822,9 +21682,9 @@ darkerLabels on
 	darkerLabels on
 
 
-	exclusionlabel Zhiping and tSNE
+	exclusionlabel tSNE and Zhiping
 	track ENCFF414NAA_el
-	parent compos_Zhiping_and_tSNE_el
+	parent compos_tSNE_and_Zhiping_el
 	bigDataUrl https://www.encodeproject.org/files/ENCFF414NAA/@@download/ENCFF414NAA.bigWig?proxy=true
 	visibility full
 	type bigWig
@@ -21836,9 +21696,9 @@ darkerLabels on
 	darkerLabels on
 
 
-	exclusionlabel Zhiping and tSNE
+	exclusionlabel tSNE and Zhiping
 	track ENCFF462ZLK_el
-	parent compos_Zhiping_and_tSNE_el
+	parent compos_tSNE_and_Zhiping_el
 	bigDataUrl https://www.encodeproject.org/files/ENCFF462ZLK/@@download/ENCFF462ZLK.bigWig?proxy=true
 	visibility full
 	type bigWig
@@ -21850,9 +21710,9 @@ darkerLabels on
 	darkerLabels on
 
 
-	exclusionlabel Zhiping and tSNE
+	exclusionlabel tSNE and Zhiping
 	track ENCFF475NUL_el
-	parent compos_Zhiping_and_tSNE_el
+	parent compos_tSNE_and_Zhiping_el
 	bigDataUrl https://www.encodeproject.org/files/ENCFF475NUL/@@download/ENCFF475NUL.bigWig?proxy=true
 	visibility full
 	type bigWig
@@ -21864,9 +21724,9 @@ darkerLabels on
 	darkerLabels on
 
 
-	exclusionlabel Zhiping and tSNE
+	exclusionlabel tSNE and Zhiping
 	track ENCFF519PNO_el
-	parent compos_Zhiping_and_tSNE_el
+	parent compos_tSNE_and_Zhiping_el
 	bigDataUrl https://www.encodeproject.org/files/ENCFF519PNO/@@download/ENCFF519PNO.bigWig?proxy=true
 	visibility full
 	type bigWig
@@ -21878,9 +21738,9 @@ darkerLabels on
 	darkerLabels on
 
 
-	exclusionlabel Zhiping and tSNE
+	exclusionlabel tSNE and Zhiping
 	track ENCFF561DJM_el
-	parent compos_Zhiping_and_tSNE_el
+	parent compos_tSNE_and_Zhiping_el
 	bigDataUrl https://www.encodeproject.org/files/ENCFF561DJM/@@download/ENCFF561DJM.bigWig?proxy=true
 	visibility full
 	type bigWig
@@ -21892,9 +21752,9 @@ darkerLabels on
 	darkerLabels on
 
 
-	exclusionlabel Zhiping and tSNE
+	exclusionlabel tSNE and Zhiping
 	track ENCFF766YIL_el
-	parent compos_Zhiping_and_tSNE_el
+	parent compos_tSNE_and_Zhiping_el
 	bigDataUrl https://www.encodeproject.org/files/ENCFF766YIL/@@download/ENCFF766YIL.bigWig?proxy=true
 	visibility full
 	type bigWig
@@ -21906,9 +21766,9 @@ darkerLabels on
 	darkerLabels on
 
 
-	exclusionlabel Zhiping and tSNE
+	exclusionlabel tSNE and Zhiping
 	track ENCFF922TBR_el
-	parent compos_Zhiping_and_tSNE_el
+	parent compos_tSNE_and_Zhiping_el
 	bigDataUrl https://www.encodeproject.org/files/ENCFF922TBR/@@download/ENCFF922TBR.bigWig?proxy=true
 	visibility full
 	type bigWig
@@ -21920,9 +21780,9 @@ darkerLabels on
 	darkerLabels on
 
 
-	exclusionlabel Zhiping and tSNE
+	exclusionlabel tSNE and Zhiping
 	track ENCFF950KRY_el
-	parent compos_Zhiping_and_tSNE_el
+	parent compos_tSNE_and_Zhiping_el
 	bigDataUrl https://www.encodeproject.org/files/ENCFF950KRY/@@download/ENCFF950KRY.bigWig?proxy=true
 	visibility full
 	type bigWig
@@ -21930,6 +21790,188 @@ darkerLabels on
 	height maxHeightPixels 32:12:8
 	shortLabel transverse colon
 	longLabel ENCFF950KRY transverse colon female adult (51 year)
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel tSNE only
+	track ENCFF049FUZ_el
+	parent compos_tSNE_only_el
+	bigDataUrl https://www.encodeproject.org/files/ENCFF049FUZ/@@download/ENCFF049FUZ.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 0,51,102
+	height maxHeightPixels 32:12:8
+	shortLabel H9
+	longLabel ENCFF049FUZ H9 G1 phase genetically modified using stable transfection
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel tSNE only
+	track ENCFF062BSK_el
+	parent compos_tSNE_only_el
+	bigDataUrl https://www.encodeproject.org/files/ENCFF062BSK/@@download/ENCFF062BSK.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 204,255,51
+	height maxHeightPixels 32:12:8
+	shortLabel heart right ventr
+	longLabel ENCFF062BSK heart right ventricle female embryo (101 day) and female embryo (103
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel tSNE only
+	track ENCFF068ZBX_el
+	parent compos_tSNE_only_el
+	bigDataUrl https://www.encodeproject.org/files/ENCFF068ZBX/@@download/ENCFF068ZBX.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 153,51,153
+	height maxHeightPixels 32:12:8
+	shortLabel liver
+	longLabel ENCFF068ZBX liver embryo (59 days) and embryo (80 days)
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel tSNE only
+	track ENCFF073UDC_el
+	parent compos_tSNE_only_el
+	bigDataUrl https://www.encodeproject.org/files/ENCFF073UDC/@@download/ENCFF073UDC.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 255,102,51
+	height maxHeightPixels 32:12:8
+	shortLabel gastrocnemius med
+	longLabel ENCFF073UDC gastrocnemius medialis male adult (54 years)
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel tSNE only
+	track ENCFF095HIQ_el
+	parent compos_tSNE_only_el
+	bigDataUrl https://www.encodeproject.org/files/ENCFF095HIQ/@@download/ENCFF095HIQ.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 0,153,255
+	height maxHeightPixels 32:12:8
+	shortLabel ecto neural proge
+	longLabel ENCFF095HIQ ecto neural progenitor cell originated from H9
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel tSNE only
+	track ENCFF123CTY_el
+	parent compos_tSNE_only_el
+	bigDataUrl https://www.encodeproject.org/files/ENCFF123CTY/@@download/ENCFF123CTY.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 255,102,51
+	height maxHeightPixels 32:12:8
+	shortLabel smooth muscle cel
+	longLabel ENCFF123CTY smooth muscle cell
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel tSNE only
+	track ENCFF208JGB_el
+	parent compos_tSNE_only_el
+	bigDataUrl https://www.encodeproject.org/files/ENCFF208JGB/@@download/ENCFF208JGB.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 255,102,51
+	height maxHeightPixels 32:12:8
+	shortLabel smooth muscle cel
+	longLabel ENCFF208JGB smooth muscle cell
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel tSNE only
+	track ENCFF233ORX_el
+	parent compos_tSNE_only_el
+	bigDataUrl https://www.encodeproject.org/files/ENCFF233ORX/@@download/ENCFF233ORX.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 255,255,102
+	height maxHeightPixels 32:12:8
+	shortLabel ascending aorta
+	longLabel ENCFF233ORX ascending aorta female adult (51 year)
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel tSNE only
+	track ENCFF547ZQF_el
+	parent compos_tSNE_only_el
+	bigDataUrl https://www.encodeproject.org/files/ENCFF547ZQF/@@download/ENCFF547ZQF.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 0,153,255
+	height maxHeightPixels 32:12:8
+	shortLabel midbrain
+	longLabel ENCFF547ZQF midbrain male adult (78 years) and male adult (84 years)
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel tSNE only
+	track ENCFF568EAH_el
+	parent compos_tSNE_only_el
+	bigDataUrl https://www.encodeproject.org/files/ENCFF568EAH/@@download/ENCFF568EAH.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 0,153,255
+	height maxHeightPixels 32:12:8
+	shortLabel occipital lobe
+	longLabel ENCFF568EAH occipital lobe male adult (84 years)
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel tSNE only
+	track ENCFF678EIG_el
+	parent compos_tSNE_only_el
+	bigDataUrl https://www.encodeproject.org/files/ENCFF678EIG/@@download/ENCFF678EIG.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 204,255,51
+	height maxHeightPixels 32:12:8
+	shortLabel heart left ventri
+	longLabel ENCFF678EIG heart left ventricle female adult (53 years)
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel tSNE only
+	track ENCFF745RLH_el
+	parent compos_tSNE_only_el
+	bigDataUrl https://www.encodeproject.org/files/ENCFF745RLH/@@download/ENCFF745RLH.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 0,51,102
+	height maxHeightPixels 32:12:8
+	shortLabel H9
+	longLabel ENCFF745RLH H9
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel tSNE only
+	track ENCFF802LRO_el
+	parent compos_tSNE_only_el
+	bigDataUrl https://www.encodeproject.org/files/ENCFF802LRO/@@download/ENCFF802LRO.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 102,204,102
+	height maxHeightPixels 32:12:8
+	shortLabel ovary
+	longLabel ENCFF802LRO ovary female adult (53 years)
 	itemRgb On
 	darkerLabels on
 
@@ -22060,9 +22102,9 @@ darkerLabels on
 	darkerLabels on
 
 
-	exclusionlabel SPOT and Zhiping
+	exclusionlabel Zhiping and SPOT
 	track ENCFF774SBP_el
-	parent compos_SPOT_and_Zhiping_el
+	parent compos_Zhiping_and_SPOT_el
 	bigDataUrl https://www.encodeproject.org/files/ENCFF774SBP/@@download/ENCFF774SBP.bigWig?proxy=true
 	visibility full
 	type bigWig
