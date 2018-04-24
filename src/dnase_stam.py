@@ -176,7 +176,7 @@ class DNaseStam(object):
             self.exps.append((expID, exp, t, line[2]))
         printt("loaded", len(self.exps))
             
-    def data(self, tissue, exp, fileID, parent, color):
+    def data(self, tissue, exp, fileID, parent, color, tfsx = ""):
         f = None
         for f in exp.files:
             if fileID == f.fileID:
@@ -189,7 +189,7 @@ class DNaseStam(object):
 
         p = OrderedDict()
         p["exclusionlabel"] = self.labels[fileID] if fileID in self.labels else ExclusionLabels[0]
-        p["track"] = fileID
+        p["track"] = fileID + tfsx
         p["parent"] = parent
         p["bigDataUrl"] = f.url + "?proxy=true"
         p["visibility"] = viz("full", True)
@@ -253,7 +253,7 @@ darkerLabels on
         def out(elabel, tissue, exp, fileID, tissueColor):
             parent = "compos_" + sanitize(elabel)
             ret = ""
-            for line in outputLines(self.data(tissue, exp, fileID, parent, tissueColor), 1):
+            for line in outputLines(self.data(tissue, exp, fileID, parent, tissueColor, tfsx = "_el"), 1):
                 ret += line
             return ret
 
@@ -314,7 +314,7 @@ darkerLabels on
 
         for t, stanzas in tracks.items():
             tissueTracks.append("""
-track {tn}
+track {tn}_view
 parent super_byView
 compositeTrack on
 shortLabel {shortL}
