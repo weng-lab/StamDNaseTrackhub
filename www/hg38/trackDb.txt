@@ -11352,7 +11352,7 @@ darkerLabels on
 
 
 track compos_SPOT_and_Zhiping_el
-parent super_byELabel
+parent super_byLabel
 compositeTrack on
 shortLabel SPOT and Zhiping
 longLabel SPOT and Zhiping (1 exps)
@@ -11366,7 +11366,7 @@ darkerLabels on
 
 
 track compos_SPOT_tSNE_and_Zhiping_el
-parent super_byELabel
+parent super_byLabel
 compositeTrack on
 shortLabel SPOT, tSNE, and Z
 longLabel SPOT, tSNE, and Zhiping (9 exps)
@@ -11380,7 +11380,7 @@ darkerLabels on
 
 
 track compos_Zhiping_and_tSNE_el
-parent super_byELabel
+parent super_byLabel
 compositeTrack on
 shortLabel Zhiping and tSNE
 longLabel Zhiping and tSNE (22 exps)
@@ -11394,7 +11394,7 @@ darkerLabels on
 
 
 track compos_Zhiping_only_el
-parent super_byELabel
+parent super_byLabel
 compositeTrack on
 shortLabel Zhiping only
 longLabel Zhiping only (3 exps)
@@ -11408,7 +11408,7 @@ darkerLabels on
 
 
 track compos_all_good_el
-parent super_byELabel
+parent super_byLabel
 compositeTrack on
 shortLabel all good
 longLabel all good (726 exps)

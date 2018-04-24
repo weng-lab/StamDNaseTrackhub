@@ -274,7 +274,7 @@ darkerLabels on
             stanzas = byELabel[l]
             labelTracks.append("""
 track {tn}_el
-parent super_byELabel
+parent super_byLabel
 compositeTrack on
 shortLabel {shortL}
 longLabel {longL}
