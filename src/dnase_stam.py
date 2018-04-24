@@ -28,6 +28,8 @@ AssayColors = {"DNase": ["6,218,147", "#06DA93"],
                "TF ChIP-seq": ["18,98,235", "#1262EB"],
                "CTCF": ["0,176,240", "#00B0F0"]}
 
+ExclusionLabels = [ "all good", "tSNE only", "Zhiping only", "Zhiping and tSNE", "SPOT only", "SPOT and tSNE", "SPOT and Zhiping", "SPOT, tSNE, and Zhiping" ]
+
 SubGroupKeys = ["age", "donor", "label", "assay", "view"]
 
 # from https://www.w3schools.com/colors/colors_shades.asp
@@ -36,7 +38,7 @@ COLORS = [tuple(int(h[i:i+2], 16) for i in (0, 2 ,4)) for h in COLORS]
 COLORS= [','.join([str(x) for x in c]) for c in COLORS]
 random.seed(18124312)
 random.shuffle(COLORS)
-    
+
 def viz(state, active):
     if active:
         return state
@@ -149,6 +151,14 @@ def outputLines(d, indentLevel, extras = {}):
     yield '\n'
 
 class DNaseStam(object):
+
+    def load_exclusion_labels(self):
+        self.labels = {}
+        with open("exclusion_labels.tsv", 'r') as f:
+            for line in f:
+                line = line.strip().split('\t')
+                self.labels[line[0]] = ExclusionLabels[int(line[1])]
+                
     def loadExps(self):
         printt("loading exps...")
         with open(os.path.join(os.path.dirname(__file__), "hg38-Hotspot-List.txt")) as f:
@@ -178,6 +188,7 @@ class DNaseStam(object):
             raise Exception("missing", fileID)
 
         p = OrderedDict()
+        p["exclusionlabel"] = self.labels[fileID] if fileID in self.labels else ExclusionLabels[0]
         p["track"] = fileID
         p["parent"] = parent
         p["bigDataUrl"] = f.url + "?proxy=true"
@@ -234,6 +245,54 @@ darkerLabels on
             f.write(tissueTrack)
             f.write('\n')
         for t, stanzas in byTissue.items():
+            for stanza in sorted(stanzas):
+                f.write(stanza)
+                f.write('\n')
+
+    def _doByExclusionLabel(self, f):       
+        def out(elabel, tissue, exp, fileID, tissueColor):
+            parent = "compos_" + sanitize(elabel)
+            ret = ""
+            for line in outputLines(self.data(tissue, exp, fileID, parent, tissueColor), 1):
+                ret += line
+            return ret
+
+        labelColors = {}
+        byELabel = defaultdict(list)
+        for idx, tup in enumerate(sorted(self.exps, key = lambda x: x[0])):
+            expID, exp, t, fileID = tup
+            if t not in labelColors:
+                labelColors[t] = COLORS.pop()
+            labelColor = labelColors[t]
+            print(idx, "of", len(self.exps), t, '\t\t',
+                  expID, exp.biosample_term_name, exp.age_display)
+            l = self.labels[fileID] if fileID in self.labels else ExclusionLabels[0]
+            byELabel[l].append(out(l, t, exp, fileID, labelColor))
+
+        labelTracks = []
+        for l in sorted(byELabel.keys()):
+            stanzas = byELabel[l]
+            labelTracks.append("""
+track {tn}
+parent super_byELabel
+compositeTrack on
+shortLabel {shortL}
+longLabel {longL}
+type bigWig 9 +
+visibility full
+maxHeightPixels 32:12:8
+autoScale on
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+""".format(tn = "compos_" + sanitize(l),
+           shortL=makeShortLabel(l),
+           longL=makeLongLabel(l + " (" + str(len(stanzas)) + " exps)")))
+
+        for labelTrack in labelTracks:
+            f.write(labelTrack)
+            f.write('\n')
+        for t, stanzas in byELabel.items():
             for stanza in sorted(stanzas):
                 f.write(stanza)
                 f.write('\n')
@@ -317,6 +376,7 @@ darkerLabels on
         self.loadExps()
 
         superTrackNames = {"byTissue": "DNase Signal byTissue",
+                           "byLabel": "DNase Signal by exclusion label"
                            #"byView": "DNase Signal view"
         }
         superTracks = []
@@ -335,7 +395,9 @@ longLabel {longL}
             for superTrack in superTracks:
                 f.write(superTrack)
                 f.write('\n')
+            self.load_exclusion_labels()
             self._doByTissue(f)
+            self._doByExclusionLabel(f)
             self.bigBedWeng(f)
             self.bigBedStam(f)
         printWroteNumLines(fnp)
