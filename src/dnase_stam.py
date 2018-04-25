@@ -152,6 +152,13 @@ def outputLines(d, indentLevel, extras = {}):
 
 class DNaseStam(object):
 
+    def load_newgroup(self):
+        self.newgroup = []
+        with open("newgroup.tsv", 'r') as f:
+            for line in f:
+                line = line.strip().split('\t')
+                self.newgroup.append(line[0])
+    
     def load_exclusion_labels(self):
         self.labels = {}
         with open("exclusion_labels.tsv", 'r') as f:
@@ -258,7 +265,7 @@ darkerLabels on
                 ret += line
             return ret
 
-        labelColors = {}
+        labelColors = {}; toappendlater = {}
         byELabel = defaultdict(list)
         for idx, tup in enumerate(sorted(self.exps, key = lambda x: x[0])):
             expID, exp, t, fileID = tup
@@ -267,11 +274,28 @@ darkerLabels on
             labelColor = labelColors[t]
             print(idx, "of", len(self.exps), t, '\t\t',
                   expID, exp.biosample_term_name, exp.age_display)
+            if fileID not in self.labels and fileID in self.newgroup:
+                toappendlater[fileID] = tup
+                continue
             l = self.labels[fileID] if fileID in self.labels else ExclusionLabels[0]
             byELabel[l].append(out(l, t, exp, fileID, labelColor))
 
+        for fileID in self.newgroup:
+            if fileID not in toappendlater: continue
+            expID, exp, t, fileID = toappendlater[fileID]
+            if t not in labelColors:
+                labelColors[t] = COLORS.pop()
+            labelColor = labelColors[t]
+            print(idx, "of", len(self.exps), t, '\t\t',
+                  expID, exp.biosample_term_name, exp.age_display)
+            l = "new group"
+            byELabel[l].append(out(l, t, exp, fileID, labelColor))
+
+        print(str(len(toappendlater)) + " files in new group")
+            
         labelTracks = []
         for l in sorted(byELabel.keys()):
+            if "good" in l: continue
             stanzas = byELabel[l]
             labelTracks.append("""
 track {tn}_el
@@ -290,6 +314,25 @@ darkerLabels on
            shortL=makeShortLabel(l),
            longL=makeLongLabel(l + " (" + str(len(stanzas)) + " exps)")))
 
+        l = ExclusionLabels[0]
+        stanzas = byELabel[l]
+        labelTracks.append("""
+track {tn}_el
+parent super_byLabel
+compositeTrack on
+shortLabel {shortL}
+longLabel {longL}
+type bigWig 9 +
+visibility full
+maxHeightPixels 32:12:8
+autoScale on
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+""".format(tn = "compos_" + sanitize(l),
+           shortL=makeShortLabel(l),
+           longL=makeLongLabel(l + " (" + str(len(stanzas)) + " exps)")))
+            
         for labelTrack in labelTracks:
             f.write(labelTrack)
             f.write('\n')
@@ -397,6 +440,7 @@ longLabel {longL}
                 f.write(superTrack)
                 f.write('\n')
             self.load_exclusion_labels()
+            self.load_newgroup()
             self._doByTissue(f)
             self._doByExclusionLabel(f)
             self.bigBedWeng(f)

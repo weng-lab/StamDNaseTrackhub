@@ -11421,11 +11421,11 @@ hoverMetadata on
 darkerLabels on
 
 
-track compos_all_good_el
+track compos_new_group_el
 parent super_byLabel
 compositeTrack on
-shortLabel all good
-longLabel all good (685 exps)
+shortLabel new group
+longLabel new group (20 exps)
 type bigWig 9 +
 visibility full
 maxHeightPixels 32:12:8
@@ -11454,6 +11454,20 @@ parent super_byLabel
 compositeTrack on
 shortLabel tSNE only
 longLabel tSNE only (13 exps)
+type bigWig 9 +
+visibility full
+maxHeightPixels 32:12:8
+autoScale on
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+
+track compos_all_good_el
+parent super_byLabel
+compositeTrack on
+shortLabel all good
+longLabel all good (665 exps)
 type bigWig 9 +
 visibility full
 maxHeightPixels 32:12:8
@@ -12466,20 +12480,6 @@ darkerLabels on
 	height maxHeightPixels 32:12:8
 	shortLabel myotube
 	longLabel ENCFF124NWI myotube originated from skeletal muscle myoblast
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
-	track ENCFF124SMB_el
-	parent compos_all_good_el
-	bigDataUrl https://www.encodeproject.org/files/ENCFF124SMB/@@download/ENCFF124SMB.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 153,0,204
-	height maxHeightPixels 32:12:8
-	shortLabel placenta
-	longLabel ENCFF124SMB placenta female embryo (101 day) and male embryo (105 days)
 	itemRgb On
 	darkerLabels on
 
@@ -13871,20 +13871,6 @@ darkerLabels on
 
 
 	exclusionlabel all good
-	track ENCFF256IDG_el
-	parent compos_all_good_el
-	bigDataUrl https://www.encodeproject.org/files/ENCFF256IDG/@@download/ENCFF256IDG.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 102,0,153
-	height maxHeightPixels 32:12:8
-	shortLabel trophoblast cell
-	longLabel ENCFF256IDG trophoblast cell embryo (21 week)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
 	track ENCFF256QQH_el
 	parent compos_all_good_el
 	bigDataUrl https://www.encodeproject.org/files/ENCFF256QQH/@@download/ENCFF256QQH.bigWig?proxy=true
@@ -14053,20 +14039,6 @@ darkerLabels on
 
 
 	exclusionlabel all good
-	track ENCFF271ANK_el
-	parent compos_all_good_el
-	bigDataUrl https://www.encodeproject.org/files/ENCFF271ANK/@@download/ENCFF271ANK.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 0,51,102
-	height maxHeightPixels 32:12:8
-	shortLabel H9
-	longLabel ENCFF271ANK H9 G2 phase genetically modified using stable transfection
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
 	track ENCFF274MGW_el
 	parent compos_all_good_el
 	bigDataUrl https://www.encodeproject.org/files/ENCFF274MGW/@@download/ENCFF274MGW.bigWig?proxy=true
@@ -14104,20 +14076,6 @@ darkerLabels on
 	height maxHeightPixels 32:12:8
 	shortLabel cardiac mesoderm
 	longLabel ENCFF274NDO cardiac mesoderm
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
-	track ENCFF276SZR_el
-	parent compos_all_good_el
-	bigDataUrl https://www.encodeproject.org/files/ENCFF276SZR/@@download/ENCFF276SZR.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 153,153,204
-	height maxHeightPixels 32:12:8
-	shortLabel naive thymus-deri
-	longLabel ENCFF276SZR naive thymus-derived CD4-positive, alpha-beta T cell female adult (3
 	itemRgb On
 	darkerLabels on
 
@@ -14244,20 +14202,6 @@ darkerLabels on
 	height maxHeightPixels 32:12:8
 	shortLabel colon epithelial 
 	longLabel ENCFF291OWX colon epithelial cell line
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
-	track ENCFF293NBG_el
-	parent compos_all_good_el
-	bigDataUrl https://www.encodeproject.org/files/ENCFF293NBG/@@download/ENCFF293NBG.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 255,102,51
-	height maxHeightPixels 32:12:8
-	shortLabel muscle of arm
-	longLabel ENCFF293NBG muscle of arm male embryo (105 days)
 	itemRgb On
 	darkerLabels on
 
@@ -14538,20 +14482,6 @@ darkerLabels on
 	height maxHeightPixels 32:12:8
 	shortLabel renal cortex inte
 	longLabel ENCFF332EJM renal cortex interstitium male embryo (108 days)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
-	track ENCFF332XCB_el
-	parent compos_all_good_el
-	bigDataUrl https://www.encodeproject.org/files/ENCFF332XCB/@@download/ENCFF332XCB.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 255,102,51
-	height maxHeightPixels 32:12:8
-	shortLabel SJCRH30
-	longLabel ENCFF332XCB SJCRH30
 	itemRgb On
 	darkerLabels on
 
@@ -14893,20 +14823,6 @@ darkerLabels on
 
 
 	exclusionlabel all good
-	track ENCFF365LXQ_el
-	parent compos_all_good_el
-	bigDataUrl https://www.encodeproject.org/files/ENCFF365LXQ/@@download/ENCFF365LXQ.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 51,102,51
-	height maxHeightPixels 32:12:8
-	shortLabel large intestine
-	longLabel ENCFF365LXQ large intestine male embryo (105 days)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
 	track ENCFF367ZCY_el
 	parent compos_all_good_el
 	bigDataUrl https://www.encodeproject.org/files/ENCFF367ZCY/@@download/ENCFF367ZCY.bigWig?proxy=true
@@ -14930,20 +14846,6 @@ darkerLabels on
 	height maxHeightPixels 32:12:8
 	shortLabel T47D
 	longLabel ENCFF367ZVE T47D
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
-	track ENCFF369CRG_el
-	parent compos_all_good_el
-	bigDataUrl https://www.encodeproject.org/files/ENCFF369CRG/@@download/ENCFF369CRG.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 255,51,0
-	height maxHeightPixels 32:12:8
-	shortLabel kidney
-	longLabel ENCFF369CRG kidney male embryo (87 days)
 	itemRgb On
 	darkerLabels on
 
@@ -15103,20 +15005,6 @@ darkerLabels on
 
 
 	exclusionlabel all good
-	track ENCFF385DEA_el
-	parent compos_all_good_el
-	bigDataUrl https://www.encodeproject.org/files/ENCFF385DEA/@@download/ENCFF385DEA.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 0,153,255
-	height maxHeightPixels 32:12:8
-	shortLabel A172
-	longLabel ENCFF385DEA A172
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
 	track ENCFF386DMJ_el
 	parent compos_all_good_el
 	bigDataUrl https://www.encodeproject.org/files/ENCFF386DMJ/@@download/ENCFF386DMJ.bigWig?proxy=true
@@ -15154,20 +15042,6 @@ darkerLabels on
 	height maxHeightPixels 32:12:8
 	shortLabel small intestine
 	longLabel ENCFF389EEG small intestine female embryo (98 days)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
-	track ENCFF389VNZ_el
-	parent compos_all_good_el
-	bigDataUrl https://www.encodeproject.org/files/ENCFF389VNZ/@@download/ENCFF389VNZ.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 0,153,255
-	height maxHeightPixels 32:12:8
-	shortLabel middle frontal gy
-	longLabel ENCFF389VNZ middle frontal gyrus male adult (78 years)
 	itemRgb On
 	darkerLabels on
 
@@ -15742,20 +15616,6 @@ darkerLabels on
 	height maxHeightPixels 32:12:8
 	shortLabel Ammon's horn
 	longLabel ENCFF460VUW Ammon's horn male adult (84 years)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
-	track ENCFF461CDQ_el
-	parent compos_all_good_el
-	bigDataUrl https://www.encodeproject.org/files/ENCFF461CDQ/@@download/ENCFF461CDQ.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 255,51,0
-	height maxHeightPixels 32:12:8
-	shortLabel right renal corte
-	longLabel ENCFF461CDQ right renal cortex interstitium male embryo (105 days)
 	itemRgb On
 	darkerLabels on
 
@@ -16699,20 +16559,6 @@ darkerLabels on
 
 
 	exclusionlabel all good
-	track ENCFF555ENQ_el
-	parent compos_all_good_el
-	bigDataUrl https://www.encodeproject.org/files/ENCFF555ENQ/@@download/ENCFF555ENQ.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 153,0,204
-	height maxHeightPixels 32:12:8
-	shortLabel placenta
-	longLabel ENCFF555ENQ placenta embryo (53 days)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
 	track ENCFF562EUF_el
 	parent compos_all_good_el
 	bigDataUrl https://www.encodeproject.org/files/ENCFF562EUF/@@download/ENCFF562EUF.bigWig?proxy=true
@@ -16932,20 +16778,6 @@ darkerLabels on
 	height maxHeightPixels 32:12:8
 	shortLabel SK-N-DZ
 	longLabel ENCFF581SEG SK-N-DZ
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
-	track ENCFF581WZE_el
-	parent compos_all_good_el
-	bigDataUrl https://www.encodeproject.org/files/ENCFF581WZE/@@download/ENCFF581WZE.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 0,153,255
-	height maxHeightPixels 32:12:8
-	shortLabel H4
-	longLabel ENCFF581WZE H4
 	itemRgb On
 	darkerLabels on
 
@@ -18099,20 +17931,6 @@ darkerLabels on
 
 
 	exclusionlabel all good
-	track ENCFF694RNX_el
-	parent compos_all_good_el
-	bigDataUrl https://www.encodeproject.org/files/ENCFF694RNX/@@download/ENCFF694RNX.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 153,0,102
-	height maxHeightPixels 32:12:8
-	shortLabel iPS DF 4.7
-	longLabel ENCFF694RNX iPS DF 4.7 male newborn
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
 	track ENCFF695WLT_el
 	parent compos_all_good_el
 	bigDataUrl https://www.encodeproject.org/files/ENCFF695WLT/@@download/ENCFF695WLT.bigWig?proxy=true
@@ -18458,20 +18276,6 @@ darkerLabels on
 	height maxHeightPixels 32:12:8
 	shortLabel CD14-positive mon
 	longLabel ENCFF724HAH CD14-positive monocyte male adult (21 year)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
-	track ENCFF726FED_el
-	parent compos_all_good_el
-	bigDataUrl https://www.encodeproject.org/files/ENCFF726FED/@@download/ENCFF726FED.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 51,102,51
-	height maxHeightPixels 32:12:8
-	shortLabel SW480
-	longLabel ENCFF726FED SW480
 	itemRgb On
 	darkerLabels on
 
@@ -19177,20 +18981,6 @@ darkerLabels on
 
 
 	exclusionlabel all good
-	track ENCFF791FRX_el
-	parent compos_all_good_el
-	bigDataUrl https://www.encodeproject.org/files/ENCFF791FRX/@@download/ENCFF791FRX.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 204,255,51
-	height maxHeightPixels 32:12:8
-	shortLabel heart left ventri
-	longLabel ENCFF791FRX heart left ventricle female embryo (101 day) and female embryo (103 
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
 	track ENCFF795TGF_el
 	parent compos_all_good_el
 	bigDataUrl https://www.encodeproject.org/files/ENCFF795TGF/@@download/ENCFF795TGF.bigWig?proxy=true
@@ -19821,20 +19611,6 @@ darkerLabels on
 
 
 	exclusionlabel all good
-	track ENCFF855CJL_el
-	parent compos_all_good_el
-	bigDataUrl https://www.encodeproject.org/files/ENCFF855CJL/@@download/ENCFF855CJL.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 0,51,102
-	height maxHeightPixels 32:12:8
-	shortLabel H9
-	longLabel ENCFF855CJL H9 S1 phase genetically modified using stable transfection
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
 	track ENCFF855ZLB_el
 	parent compos_all_good_el
 	bigDataUrl https://www.encodeproject.org/files/ENCFF855ZLB/@@download/ENCFF855ZLB.bigWig?proxy=true
@@ -19914,20 +19690,6 @@ darkerLabels on
 	height maxHeightPixels 32:12:8
 	shortLabel leg bone
 	longLabel ENCFF869XYK leg bone male embryo (81 day)
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
-	track ENCFF873DWP_el
-	parent compos_all_good_el
-	bigDataUrl https://www.encodeproject.org/files/ENCFF873DWP/@@download/ENCFF873DWP.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 0,153,204
-	height maxHeightPixels 32:12:8
-	shortLabel stomach
-	longLabel ENCFF873DWP stomach male embryo (58 days) and male embryo (76 days)
 	itemRgb On
 	darkerLabels on
 
@@ -20096,20 +19858,6 @@ darkerLabels on
 	height maxHeightPixels 32:12:8
 	shortLabel T-helper 2 cell
 	longLabel ENCFF889LFN T-helper 2 cell
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
-	track ENCFF890HSZ_el
-	parent compos_all_good_el
-	bigDataUrl https://www.encodeproject.org/files/ENCFF890HSZ/@@download/ENCFF890HSZ.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 255,51,0
-	height maxHeightPixels 32:12:8
-	shortLabel kidney
-	longLabel ENCFF890HSZ kidney female embryo (85 days)
 	itemRgb On
 	darkerLabels on
 
@@ -20600,20 +20348,6 @@ darkerLabels on
 	height maxHeightPixels 32:12:8
 	shortLabel HepG2
 	longLabel ENCFF944TCB HepG2
-	itemRgb On
-	darkerLabels on
-
-
-	exclusionlabel all good
-	track ENCFF946AQO_el
-	parent compos_all_good_el
-	bigDataUrl https://www.encodeproject.org/files/ENCFF946AQO/@@download/ENCFF946AQO.bigWig?proxy=true
-	visibility full
-	type bigWig
-	color 255,51,0
-	height maxHeightPixels 32:12:8
-	shortLabel left renal cortex
-	longLabel ENCFF946AQO left renal cortex interstitium male embryo (105 days)
 	itemRgb On
 	darkerLabels on
 
@@ -22112,6 +21846,286 @@ darkerLabels on
 	height maxHeightPixels 32:12:8
 	shortLabel glomerular viscer
 	longLabel ENCFF774SBP glomerular visceral epithelial cell child (3 years)
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel all good
+	track ENCFF124SMB_el
+	parent compos_new_group_el
+	bigDataUrl https://www.encodeproject.org/files/ENCFF124SMB/@@download/ENCFF124SMB.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 153,0,204
+	height maxHeightPixels 32:12:8
+	shortLabel placenta
+	longLabel ENCFF124SMB placenta female embryo (101 day) and male embryo (105 days)
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel all good
+	track ENCFF256IDG_el
+	parent compos_new_group_el
+	bigDataUrl https://www.encodeproject.org/files/ENCFF256IDG/@@download/ENCFF256IDG.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 102,0,153
+	height maxHeightPixels 32:12:8
+	shortLabel trophoblast cell
+	longLabel ENCFF256IDG trophoblast cell embryo (21 week)
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel all good
+	track ENCFF271ANK_el
+	parent compos_new_group_el
+	bigDataUrl https://www.encodeproject.org/files/ENCFF271ANK/@@download/ENCFF271ANK.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 0,51,102
+	height maxHeightPixels 32:12:8
+	shortLabel H9
+	longLabel ENCFF271ANK H9 G2 phase genetically modified using stable transfection
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel all good
+	track ENCFF276SZR_el
+	parent compos_new_group_el
+	bigDataUrl https://www.encodeproject.org/files/ENCFF276SZR/@@download/ENCFF276SZR.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 153,153,204
+	height maxHeightPixels 32:12:8
+	shortLabel naive thymus-deri
+	longLabel ENCFF276SZR naive thymus-derived CD4-positive, alpha-beta T cell female adult (3
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel all good
+	track ENCFF293NBG_el
+	parent compos_new_group_el
+	bigDataUrl https://www.encodeproject.org/files/ENCFF293NBG/@@download/ENCFF293NBG.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 255,102,51
+	height maxHeightPixels 32:12:8
+	shortLabel muscle of arm
+	longLabel ENCFF293NBG muscle of arm male embryo (105 days)
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel all good
+	track ENCFF332XCB_el
+	parent compos_new_group_el
+	bigDataUrl https://www.encodeproject.org/files/ENCFF332XCB/@@download/ENCFF332XCB.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 255,102,51
+	height maxHeightPixels 32:12:8
+	shortLabel SJCRH30
+	longLabel ENCFF332XCB SJCRH30
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel all good
+	track ENCFF365LXQ_el
+	parent compos_new_group_el
+	bigDataUrl https://www.encodeproject.org/files/ENCFF365LXQ/@@download/ENCFF365LXQ.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 51,102,51
+	height maxHeightPixels 32:12:8
+	shortLabel large intestine
+	longLabel ENCFF365LXQ large intestine male embryo (105 days)
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel all good
+	track ENCFF369CRG_el
+	parent compos_new_group_el
+	bigDataUrl https://www.encodeproject.org/files/ENCFF369CRG/@@download/ENCFF369CRG.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 255,51,0
+	height maxHeightPixels 32:12:8
+	shortLabel kidney
+	longLabel ENCFF369CRG kidney male embryo (87 days)
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel all good
+	track ENCFF385DEA_el
+	parent compos_new_group_el
+	bigDataUrl https://www.encodeproject.org/files/ENCFF385DEA/@@download/ENCFF385DEA.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 0,153,255
+	height maxHeightPixels 32:12:8
+	shortLabel A172
+	longLabel ENCFF385DEA A172
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel all good
+	track ENCFF389VNZ_el
+	parent compos_new_group_el
+	bigDataUrl https://www.encodeproject.org/files/ENCFF389VNZ/@@download/ENCFF389VNZ.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 0,153,255
+	height maxHeightPixels 32:12:8
+	shortLabel middle frontal gy
+	longLabel ENCFF389VNZ middle frontal gyrus male adult (78 years)
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel all good
+	track ENCFF461CDQ_el
+	parent compos_new_group_el
+	bigDataUrl https://www.encodeproject.org/files/ENCFF461CDQ/@@download/ENCFF461CDQ.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 255,51,0
+	height maxHeightPixels 32:12:8
+	shortLabel right renal corte
+	longLabel ENCFF461CDQ right renal cortex interstitium male embryo (105 days)
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel all good
+	track ENCFF555ENQ_el
+	parent compos_new_group_el
+	bigDataUrl https://www.encodeproject.org/files/ENCFF555ENQ/@@download/ENCFF555ENQ.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 153,0,204
+	height maxHeightPixels 32:12:8
+	shortLabel placenta
+	longLabel ENCFF555ENQ placenta embryo (53 days)
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel all good
+	track ENCFF581WZE_el
+	parent compos_new_group_el
+	bigDataUrl https://www.encodeproject.org/files/ENCFF581WZE/@@download/ENCFF581WZE.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 0,153,255
+	height maxHeightPixels 32:12:8
+	shortLabel H4
+	longLabel ENCFF581WZE H4
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel all good
+	track ENCFF694RNX_el
+	parent compos_new_group_el
+	bigDataUrl https://www.encodeproject.org/files/ENCFF694RNX/@@download/ENCFF694RNX.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 153,0,102
+	height maxHeightPixels 32:12:8
+	shortLabel iPS DF 4.7
+	longLabel ENCFF694RNX iPS DF 4.7 male newborn
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel all good
+	track ENCFF726FED_el
+	parent compos_new_group_el
+	bigDataUrl https://www.encodeproject.org/files/ENCFF726FED/@@download/ENCFF726FED.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 51,102,51
+	height maxHeightPixels 32:12:8
+	shortLabel SW480
+	longLabel ENCFF726FED SW480
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel all good
+	track ENCFF791FRX_el
+	parent compos_new_group_el
+	bigDataUrl https://www.encodeproject.org/files/ENCFF791FRX/@@download/ENCFF791FRX.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 204,255,51
+	height maxHeightPixels 32:12:8
+	shortLabel heart left ventri
+	longLabel ENCFF791FRX heart left ventricle female embryo (101 day) and female embryo (103 
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel all good
+	track ENCFF855CJL_el
+	parent compos_new_group_el
+	bigDataUrl https://www.encodeproject.org/files/ENCFF855CJL/@@download/ENCFF855CJL.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 0,51,102
+	height maxHeightPixels 32:12:8
+	shortLabel H9
+	longLabel ENCFF855CJL H9 S1 phase genetically modified using stable transfection
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel all good
+	track ENCFF873DWP_el
+	parent compos_new_group_el
+	bigDataUrl https://www.encodeproject.org/files/ENCFF873DWP/@@download/ENCFF873DWP.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 0,153,204
+	height maxHeightPixels 32:12:8
+	shortLabel stomach
+	longLabel ENCFF873DWP stomach male embryo (58 days) and male embryo (76 days)
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel all good
+	track ENCFF890HSZ_el
+	parent compos_new_group_el
+	bigDataUrl https://www.encodeproject.org/files/ENCFF890HSZ/@@download/ENCFF890HSZ.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 255,51,0
+	height maxHeightPixels 32:12:8
+	shortLabel kidney
+	longLabel ENCFF890HSZ kidney female embryo (85 days)
+	itemRgb On
+	darkerLabels on
+
+
+	exclusionlabel all good
+	track ENCFF946AQO_el
+	parent compos_new_group_el
+	bigDataUrl https://www.encodeproject.org/files/ENCFF946AQO/@@download/ENCFF946AQO.bigWig?proxy=true
+	visibility full
+	type bigWig
+	color 255,51,0
+	height maxHeightPixels 32:12:8
+	shortLabel left renal cortex
+	longLabel ENCFF946AQO left renal cortex interstitium male embryo (105 days)
 	itemRgb On
 	darkerLabels on
 
